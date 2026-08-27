@@ -39,27 +39,27 @@
 
 ### National statutory baseline
 
-- [ ] Verify RTI Act Section 6(1) text and product implications.
-- [ ] Verify RTI Act Section 7(1) standard response period and receipt basis.
-- [ ] Verify RTI Act Sections 19(1), 19(3), and 19(6) appeal periods and requirements.
-- [ ] Verify RTI Act Section 7(6) delayed-information fee rule.
-- [ ] Document Section 6(3) transfer behavior as unsupported deadline scope for MVP.
-- [ ] Verify the DPDP Act Section 44(3) commencement notification and exact effective date.
-- [ ] Verify the amended RTI Act Section 8(1)(j) text.
-- [ ] Verify the continued Section 8(2) text and prevent categorical overstatement.
-- [ ] Draft the officer-information opt-in caveat for expert review.
-- [ ] Create a national statutory change-history record.
+- [x] Verify RTI Act Section 6(1) text and product implications in [NATIONAL_STATUTORY_BASELINE.md](./docs/legal-data/NATIONAL_STATUTORY_BASELINE.md).
+- [x] Verify RTI Act Section 7(1) standard response period and receipt basis.
+- [x] Verify RTI Act Sections 19(1), 19(3), and 19(6) appeal periods and requirements.
+- [x] Verify RTI Act Section 7(6) delayed-information fee rule.
+- [x] Document Section 6(3) transfer behavior as unsupported deadline scope for MVP.
+- [x] Verify the DPDP Act Section 44(3) commencement notification and exact effective date.
+- [x] Verify the amended RTI Act Section 8(1)(j) text.
+- [x] Verify the continued Section 8(2) text and prevent categorical overstatement.
+- [x] Draft the officer-information opt-in caveat for expert review.
+- [x] Create a national statutory change-history record.
 
 ### Central Government dossier
 
-- [ ] Verify application fee and BPL exemption/evidence requirements.
-- [ ] Verify accepted online and offline payment methods.
-- [ ] Verify portal scope, excluded authorities, attachment support, and text limits.
-- [ ] Verify application and first-appeal filing routes and forms.
-- [ ] Verify first-appeal fee and evidence requirements.
+- [x] Verify application fee and BPL exemption/evidence requirements.
+- [x] Verify accepted online and offline payment methods.
+- [x] Verify portal scope, excluded authorities, attachment support, and text limits.
+- [x] Verify application and first-appeal filing routes and forms.
+- [x] Verify first-appeal fee and evidence requirements.
 - [ ] Record official authority/PIO/FAA directory sources.
 - [ ] Record source metadata, provisions, effective dates, and checksums.
-- [ ] Classify the Central profile as reviewed or non-filing-ready.
+- [x] Classify the Central profile as non-filing-ready (`research`) pending legal/RTI and authority-directory review.
 
 ### Government of NCT of Delhi dossier
 

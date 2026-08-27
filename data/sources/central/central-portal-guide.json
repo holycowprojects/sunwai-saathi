@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "CENTRAL-PORTAL-GUIDE",
+  "title": "Guidelines for use of the RTI Online Portal",
+  "issuer": "Department of Personnel and Training, Government of India",
+  "jurisdiction": "central",
+  "url": "https://rtionline.gov.in/guidelines.php?appeal=&pageid=45c48cce2e2d7fbdea1afc51c7c6ad26",
+  "publishedOn": null,
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-27T18:01:03+05:30",
+  "contentType": "text/html",
+  "sizeBytes": null,
+  "sha256": null,
+  "provision": "Portal application and first-appeal instructions",
+  "excerpt": "The portal supports Central authorities, a 3,000-character request field and PDF support, online payment, BPL certificate upload and online first appeals without a fee.",
+  "status": "verified",
+  "notes": "Live operational guidance; checksum capture and periodic change monitoring remain pending.",
+  "review": {
+    "technical": { "status": "approved", "reviewer": "Codex", "reviewedAt": "2026-08-27T18:01:03+05:30", "notes": "Current official portal guidance inspected." },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Portal behavior must be reviewed alongside the Act and Rules." }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/jurisdiction.schema.json",
+  "id": "central",
+  "name": "Central Government",
+  "legalDataVersion": "2026.08.2",
+  "status": "research",
+  "reviewedAt": "2026-08-27",
+  "staleAfter": "2027-02-27",
+  "portal": {
+    "url": "https://rtionline.gov.in/",
+    "coverage": "Central Government ministries, departments and listed Central public authorities; excludes every State Government authority, including Government of NCT Delhi.",
+    "textLimit": 3000,
+    "attachment": { "formats": ["application/pdf"], "maxBytes": 1048576 }
+  },
+  "application": {
+    "fee": { "amountPaise": 1000, "currency": "INR" },
+    "bplExempt": true,
+    "bplEvidence": "Copy of a below-poverty-line certificate issued by the appropriate government.",
+    "paymentModes": ["cash-receipt", "demand-draft", "bankers-cheque", "indian-postal-order", "electronic-payment", "internet-banking", "credit-card", "debit-card", "upi", "rupay-card"],
+    "filingRoutes": ["online", "post", "in-person"],
+    "prescribedForm": false,
+    "identityEvidence": "Do not request Aadhaar, PAN or other identity documents; the portal permits BPL proof when the exemption is claimed.",
+    "sourceIds": ["CENTRAL-RTI-RULES-2012", "CENTRAL-PORTAL-GUIDE", "CENTRAL-PORTAL-MANUAL", "CENTRAL-PORTAL-HOME"]
+  },
+  "firstAppeal": {
+    "fee": { "amountPaise": 0, "currency": "INR" },
+    "bplExempt": null,
+    "bplEvidence": null,
+    "paymentModes": [],
+    "filingRoutes": ["online", "post", "in-person"],
+    "prescribedForm": false,
+    "identityEvidence": null,
+    "sourceIds": ["IN-RTI-ACT-CURRENT", "CENTRAL-PORTAL-GUIDE"]
+  },
+  "sources": ["IN-RTI-ACT-CURRENT", "IN-DPDP-COMMENCE-2025", "CENTRAL-RTI-RULES-2012", "CENTRAL-PORTAL-GUIDE", "CENTRAL-PORTAL-MANUAL", "CENTRAL-PORTAL-HOME"]
+}

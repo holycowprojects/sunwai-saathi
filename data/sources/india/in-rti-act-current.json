@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "IN-RTI-ACT-CURRENT",
+  "title": "The Right to Information Act, 2005 — consolidated text",
+  "issuer": "Legislative Department, Ministry of Law and Justice, Government of India",
+  "jurisdiction": "india",
+  "url": "https://www.indiacode.nic.in/bitstream/123456789/2065/1/aA2005-22.pdf",
+  "publishedOn": "2005-06-15",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-27T18:01:03+05:30",
+  "contentType": "application/pdf",
+  "sizeBytes": null,
+  "sha256": null,
+  "provision": "Sections 6, 7, 8, 10 and 19",
+  "excerpt": "Current consolidated text used for request mechanics, standard response timing, delayed-information fee treatment, exemptions, severability and appeal periods.",
+  "status": "verified",
+  "notes": "Official India Code text was inspected through its indexed PDF. Local checksum capture failed because the official host was unavailable; legal/RTI approval remains pending.",
+  "review": {
+    "technical": { "status": "approved", "reviewer": "Codex", "reviewedAt": "2026-08-27T18:01:03+05:30", "notes": "Relevant consolidated provisions and amendment footnote inspected." },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Required before filing-ready activation." }
+  }
+}

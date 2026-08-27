@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "CENTRAL-PORTAL-HOME",
+  "title": "RTI Online Portal",
+  "issuer": "Department of Personnel and Training, Government of India",
+  "jurisdiction": "central",
+  "url": "https://rtionline.gov.in/",
+  "publishedOn": null,
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-27T18:01:03+05:30",
+  "contentType": "text/html",
+  "sizeBytes": null,
+  "sha256": null,
+  "provision": "Portal scope warning",
+  "excerpt": "The portal serves Central Government public authorities and warns users not to file for State Governments, including Government of NCT Delhi; misfiled applications may be returned without refund.",
+  "status": "verified",
+  "notes": "Operational scope evidence. Exact authority coverage requires the portal's current authority directory.",
+  "review": {
+    "technical": { "status": "approved", "reviewer": "Codex", "reviewedAt": "2026-08-27T18:01:03+05:30", "notes": "Current portal scope warning inspected." },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Required before filing-ready activation." }
+  }
+}

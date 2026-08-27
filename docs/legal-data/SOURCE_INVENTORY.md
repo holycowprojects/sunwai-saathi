@@ -30,9 +30,9 @@ When official sources conflict, appear stale, or mix repealed and current regime
 
 | ID | Claim/source role | Official source | Preliminary finding | Status | Follow-up |
 |---|---|---|---|---|---|
-| `IN-RTI-ACT-CURRENT` | Current RTI Act text | [India Code — Right to Information Act, 2005](https://www.indiacode.nic.in/handle/123456789/2065?view_type=browse) | Authoritative Act index; current PDF must be hashed and section text extracted | `unverified` | Capture current PDF checksum; verify Sections 3, 6, 7, 8, 10 and 19 |
-| `IN-DPDP-COMMENCE-2025` | Commencement of DPDP Section 44(3) | [MeitY Gazette notification G.S.R. 843(E)](https://www.meity.gov.in/static/uploads/2025/11/c56ceae6c383460ca69577428d36828b.pdf) | Notification dated 13 Nov 2025 brings Section 44(3) into force on Gazette publication | `verified` (technical) | Hash PDF; legal/RTI review; record Gazette publication metadata |
-| `IN-RTI-RULES-2012` | Central fee and procedure rules | [DoPT — Right to Information Rules, 2012](https://dopt.gov.in/sites/default/files/4-9-2018-IR%20Corres.PDF) | Official copy of G.S.R. 603(E), dated 31 Jul 2012 | `unverified` | Verify application fee, BPL rule, payment modes, copying/inspection charges |
+| `IN-RTI-ACT-CURRENT` | Current RTI Act text | [India Code — consolidated Right to Information Act, 2005](https://www.indiacode.nic.in/bitstream/123456789/2065/1/aA2005-22.pdf) | Sections 6, 7, 8, 10 and 19 technically verified against the current indexed text; Section 8(1)(j) footnote gives 13 Nov 2025 effective date | `verified` (technical) | Capture checksum when India Code host is available; legal/RTI review |
+| `IN-DPDP-COMMENCE-2025` | Commencement of DPDP Section 44(3) | [MeitY Gazette notification G.S.R. 843(E)](https://www.meity.gov.in/static/uploads/2025/11/c56ceae6c383460ca69577428d36828b.pdf) | Notification dated 13 Nov 2025 brings Section 44(3) into force on Gazette publication | `verified` (technical) | Legal/RTI review; SHA-256 recorded in structured source data |
+| `CENTRAL-RTI-RULES-2012` | Central fee and procedure rules | [DoPT — Right to Information Rules, 2012](https://dopt.gov.in/sites/default/files/4-9-2018-IR%20Corres.PDF) | Rules 3–6 verify ₹10 fee, ordinary 500-word limit, BPL exemption/proof, information charges and payment modes | `verified` (technical) | Legal/RTI review; SHA-256 recorded in structured source data |
 | `IN-DOPT-RTI-HUB` | Official legislation/rules discovery | [DoPT RTI portal](https://rti.dopt.gov.in/index.html) | Links amended Act, rules, guides, CAPIOs and state portals | `verified` (discovery) | Record exact linked files and checksums |
 
 ### Corrections already established
@@ -47,9 +47,9 @@ When official sources conflict, appear stale, or mix repealed and current regime
 |---|---|---|---|---|---|
 | `CENTRAL-PORTAL-HOME` | Portal scope | [Central RTI Online](https://www.rtionline.gov.in/index.php) | Central authorities only; explicitly excludes state authorities and GNCT Delhi; misfiled requests may be returned without refund | `verified` (technical) | Capture reviewed date and portal snapshot metadata |
 | `CENTRAL-PORTAL-GUIDE` | Online application behavior | [Central portal guidelines](https://rtionline.gov.in/guidelines.php?appeal=&pageid=45c48cce2e2d7fbdea1afc51c7c6ad26) | 3,000-character field; PDF supporting document; warns against Aadhaar/PAN except BPL proof; online payment; no first-appeal fee | `verified` (technical) | Verify file-size limit against current user manual and live form |
-| `CENTRAL-PORTAL-MANUAL` | Attachment and appeal constraints | [Citizen user manual](https://rtionline.gov.in/viewPDF.php?file=um_citizen.pdf) | Manual reports PDF supporting document up to 1 MB and 3,000-character first-appeal text | `unverified` | Hash manual; reconcile publication age with current live form |
+| `CENTRAL-PORTAL-MANUAL` | Attachment and appeal constraints | [Citizen user manual](https://rtionline.gov.in/viewPDF.php?file=um_citizen.pdf) | Indexed manual reports PDF supporting documents up to 1 MB and a 3,000-character first-appeal field; older screenshots may differ | `verified` (technical) | Hash manual; live form wins if an old screenshot conflicts |
 
-**Profile state:** `unverified`; not filing-ready until fee/rules and live portal behavior receive legal/RTI review.
+**Profile state:** `research`; not filing-ready until the legal/RTI review, current authority directory and remaining source-capture checks pass. See [National statutory baseline](./NATIONAL_STATUTORY_BASELINE.md) and `data/jurisdictions/central.json`.
 
 ## Government of NCT of Delhi profile
 

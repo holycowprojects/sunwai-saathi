@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "IN-DPDP-COMMENCE-2025",
+  "title": "Digital Personal Data Protection Act commencement notification G.S.R. 843(E)",
+  "issuer": "Ministry of Electronics and Information Technology, Government of India",
+  "jurisdiction": "india",
+  "url": "https://www.meity.gov.in/static/uploads/2025/11/c56ceae6c383460ca69577428d36828b.pdf",
+  "publishedOn": "2025-11-13",
+  "effectiveFrom": "2025-11-13",
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-27T18:01:03+05:30",
+  "contentType": "application/pdf",
+  "sizeBytes": 1869005,
+  "sha256": "6df25cd8c76ac8eb18cae81835d51d51128ffbf2ed13262843395efddf0998e5",
+  "provision": "Clause (a): commencement of Section 44(3)",
+  "excerpt": "Section 44(3) of the Digital Personal Data Protection Act, 2023 came into force on publication of G.S.R. 843(E) on 13 November 2025.",
+  "status": "verified",
+  "notes": "Downloaded as inert data from the official MeitY host, size-capped, PDF-signature checked, SHA-256 hashed and scanned with Microsoft Defender.",
+  "review": {
+    "technical": { "status": "approved", "reviewer": "Codex", "reviewedAt": "2026-08-27T18:01:03+05:30", "notes": "Publication date and Section 44(3) commencement verified." },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Required before filing-ready activation." }
+  }
+}

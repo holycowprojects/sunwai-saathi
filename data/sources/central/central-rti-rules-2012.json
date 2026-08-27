@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "CENTRAL-RTI-RULES-2012",
+  "title": "Right to Information Rules, 2012 — G.S.R. 603(E)",
+  "issuer": "Department of Personnel and Training, Government of India",
+  "jurisdiction": "central",
+  "url": "https://dopt.gov.in/sites/default/files/4-9-2018-IR%20Corres.PDF",
+  "publishedOn": "2012-07-31",
+  "effectiveFrom": "2012-07-31",
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-27T18:01:03+05:30",
+  "contentType": "application/pdf",
+  "sizeBytes": 6378636,
+  "sha256": "9ea2552cd6dad08272e8120d8724fd10a28a39fdb26f5192a195babdfdd2bc31",
+  "provision": "Rules 3 to 6",
+  "excerpt": "Rule 3 sets a ten-rupee application fee and an ordinary 500-word limit without rejection solely for excess length; Rules 5 and 6 govern BPL exemption and payment modes.",
+  "status": "verified",
+  "notes": "The official DoPT file is a larger compilation containing G.S.R. 603(E). It was downloaded as inert data, size-capped, signature checked, hashed and scanned with Microsoft Defender.",
+  "review": {
+    "technical": { "status": "approved", "reviewer": "Codex", "reviewedAt": "2026-08-27T18:01:03+05:30", "notes": "Rules 3 to 6 verified in the official compilation." },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Required before filing-ready activation." }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "CENTRAL-PORTAL-MANUAL",
+  "title": "RTI Online citizen user manual",
+  "issuer": "Department of Personnel and Training, Government of India",
+  "jurisdiction": "central",
+  "url": "https://www.rtionline.gov.in/viewPDF.php?file=um_citizen.pdf",
+  "publishedOn": null,
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-27T18:01:03+05:30",
+  "contentType": "application/pdf",
+  "sizeBytes": null,
+  "sha256": null,
+  "provision": "Supporting-document constraints",
+  "excerpt": "The current indexed manual describes PDF supporting documents up to one megabyte and a 3,000-character first-appeal text field.",
+  "status": "verified",
+  "notes": "The portal guidance controls the current text limit if an older screenshot in the manual conflicts. Local checksum capture remains pending.",
+  "review": {
+    "technical": { "status": "approved", "reviewer": "Codex", "reviewedAt": "2026-08-27T18:01:03+05:30", "notes": "Current indexed official manual text inspected." },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Operational behavior must be reviewed alongside the live portal." }
+  }
+}
