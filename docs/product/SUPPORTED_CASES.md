@@ -10,7 +10,7 @@
 | Central authority filed through Central portal | Supported after profile review | Use Central profile only |
 | GNCT Delhi authority | Supported after profile review | Use Delhi profile; never route to Central portal |
 | Haryana, Maharashtra or Goa state authority | Supported after profile review | Use its independent state profile |
-| Maharashtra authority in v1 | Supported after pre-June baseline review | Generate filing-ready output from verified pre-June-2026 rules; exclude disputed 2026 fee, ID, restriction, and form changes; stamp the baseline and review date |
+| Maharashtra authority in v1 | Supported after pre-June baseline review | Generate filing-ready output from verified pre-June-2026 rules, including the 2012 single-subject/150-word rule; exclude changes introduced only by the disputed 2026 instruments; stamp the baseline and review date |
 | Life-or-liberty request | Unsupported in MVP | Explain exceptional 48-hour path and recommend independent assistance |
 | APIO filing, Section 6(3) transfer, third-party consultation, exempt organization or additional-fee timing | Unsupported timing | Do not calculate a filing-ready deadline |
 | Standard date based on confirmed PIO/public-authority receipt | Supported | Label deadline confirmed |

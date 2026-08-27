@@ -84,7 +84,7 @@
 ### Maharashtra dossier
 
 - [ ] Verify from primary official sources the Maharashtra rules and amendments applying immediately before the June 2026 publication.
-- [ ] Define and version the Maharashtra v1 legacy baseline; exclude all disputed 2026 changes.
+- [x] Define and version the Maharashtra v1 legacy baseline; retain pre-2026 Rule 3A and exclude changes introduced only by disputed 2026 instruments.
 - [ ] Require Maharashtra v1 submission packs to display the baseline and last-reviewed date.
 - [ ] Defer investigation of the 2026 rules’ current operative status to the v2 research cycle.
 - [ ] Verify application fee and BPL exemption/evidence requirements.

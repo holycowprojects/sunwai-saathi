@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "MH-RTI-AMEND-2012-SINGLE-SUBJECT",
+  "title": "Maharashtra Right to Information (Amendment) Rules, 2012",
+  "issuer": "Government of Maharashtra, General Administration Department",
+  "jurisdiction": "maharashtra",
+  "url": "https://rti.maharashtra.gov.in/downloadcircular.action?fname=Notification-One%2Brequest%2Bapplication%2Bshould%2Bbe%2Brelated%2Bto%2Bone%2Btopic%2Bonly_Dt_16-01-2012.pdf",
+  "publishedOn": "2012-01-16",
+  "effectiveFrom": "2012-01-16",
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-27T17:48:59+05:30",
+  "contentType": "application/pdf",
+  "sizeBytes": 57444,
+  "sha256": "492c8d1a99881c3e93f422f8b8f18dd76cff59b53e7fd35af326598529add63b",
+  "provision": "Rule 3A",
+  "excerpt": "A request must relate to one subject matter and ordinarily must not exceed 150 words; separate applications are required for additional subjects.",
+  "status": "verified",
+  "notes": "The official circular index and PDF establish this as a pre-2026 amendment. Legal/RTI approval remains pending.",
+  "review": {
+    "technical": { "status": "approved", "reviewer": "Codex", "reviewedAt": "2026-08-27T17:48:59+05:30", "notes": "Official scan captured and hashed; provision cross-checked against accessible published text." },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Required before filing-ready activation." }
+  }
+}

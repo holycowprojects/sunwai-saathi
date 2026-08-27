@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/jurisdiction.schema.json",
+  "id": "maharashtra",
+  "name": "Maharashtra",
+  "legalDataVersion": "2026.08.1",
+  "status": "research",
+  "reviewedAt": "2026-08-27",
+  "staleAfter": "2027-02-27",
+  "portal": {
+    "url": "https://rtionline.maharashtra.gov.in/",
+    "coverage": "Participating Maharashtra public authorities; exact authority coverage requires live verification.",
+    "textLimit": null,
+    "attachment": null
+  },
+  "application": {
+    "fee": { "amountPaise": 1000, "currency": "INR" },
+    "bplExempt": true,
+    "bplEvidence": "Proof of below-poverty-line status is required to claim the fee exemption.",
+    "paymentModes": ["cash-receipt", "demand-draft", "bankers-cheque", "court-fee-stamp", "online-payment-gateway"],
+    "filingRoutes": ["online", "post", "in-person"],
+    "prescribedForm": true,
+    "identityEvidence": "No general photo-ID requirement is encoded in the v1 pre-June-2026 baseline.",
+    "sourceIds": ["MH-RTI-RULES-2005", "MH-RTI-AMEND-2012-SINGLE-SUBJECT", "MH-RTI-FORMAT"]
+  },
+  "firstAppeal": {
+    "fee": { "amountPaise": 2000, "currency": "INR" },
+    "bplExempt": null,
+    "bplEvidence": null,
+    "paymentModes": ["court-fee-stamp", "online-payment-gateway"],
+    "filingRoutes": ["online", "post", "in-person"],
+    "prescribedForm": true,
+    "identityEvidence": null,
+    "sourceIds": ["MH-RTI-FORMAT", "MH-PORTAL-FAQ"]
+  },
+  "sources": ["MH-RTI-RULES-2005", "MH-RTI-AMEND-2012-SINGLE-SUBJECT", "MH-RTI-FORMAT", "MH-PORTAL-FAQ"]
+}

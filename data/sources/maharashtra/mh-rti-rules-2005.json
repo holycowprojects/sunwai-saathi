@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "MH-RTI-RULES-2005",
+  "title": "Maharashtra Right to Information Rules, 2005",
+  "issuer": "Government of Maharashtra, General Administration Department",
+  "jurisdiction": "maharashtra",
+  "url": "https://sic.maharashtra.gov.in/site/Downloads/GR/11.10.2005%20%E0%A4%AE%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%A4%E0%A5%80%E0%A4%9A%E0%A4%BE%20%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%95%E0%A4%BE%E0%A4%B0%20%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%202005%20%E0%A4%AC%E0%A4%BE%E0%A4%AC%E0%A4%A4.pdf",
+  "publishedOn": "2005-10-11",
+  "effectiveFrom": "2005-10-12",
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-27T17:48:59+05:30",
+  "contentType": "application/pdf",
+  "sizeBytes": 905576,
+  "sha256": "1bb69929e302f2cf844936dc4bc34d4a96899b1295923ae43075035e03a1f4a4",
+  "provision": "Rules 3 and 4; Annexures A and B",
+  "excerpt": "Rule 3 prescribes Annexure A and a ten-rupee application fee payable by cash receipt, demand draft, banker's cheque, or a ten-rupee court-fee stamp.",
+  "status": "verified",
+  "notes": "Technical verification only. Legal/RTI approval and Gazette cross-check remain pending.",
+  "review": {
+    "technical": { "status": "approved", "reviewer": "Codex", "reviewedAt": "2026-08-27T17:48:59+05:30", "notes": "Official SIC-hosted PDF checked and hashed." },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Required before filing-ready activation." }
+  }
+}

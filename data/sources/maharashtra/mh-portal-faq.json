@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "MH-PORTAL-FAQ",
+  "title": "Maharashtra RTI Online frequently asked questions",
+  "issuer": "Government of Maharashtra",
+  "jurisdiction": "maharashtra",
+  "url": "https://rtionline.maharashtra.gov.in/FAQ-RTI-Online.pdf",
+  "publishedOn": null,
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-27T17:48:59+05:30",
+  "contentType": "application/pdf",
+  "sizeBytes": null,
+  "sha256": null,
+  "provision": "Online first-appeal instructions",
+  "excerpt": "The portal FAQ states that the fee for filing a first appeal is twenty rupees.",
+  "status": "verified",
+  "notes": "Operational portal evidence, not a substitute for the operative rule. Checksum and live-flow verification remain pending.",
+  "review": {
+    "technical": { "status": "approved", "reviewer": "Codex", "reviewedAt": "2026-08-27T17:48:59+05:30", "notes": "Official portal FAQ inspected." },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Required before filing-ready activation." }
+  }
+}
