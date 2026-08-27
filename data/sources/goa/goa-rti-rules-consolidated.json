@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "GOA-RTI-RULES-CONSOLIDATED",
+  "title": "Manual of Goa Laws: Right to Information Act and Rules",
+  "issuer": "Department of Law and Judiciary, Government of Goa",
+  "jurisdiction": "goa",
+  "url": "https://tcp.goa.gov.in/wp-content/uploads/2016/11/rti.pdf",
+  "publishedOn": null,
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-27T19:45:00+05:30",
+  "contentType": "application/pdf",
+  "sizeBytes": 312901,
+  "sha256": "d3f469b8afeb2e4e27ad8806c88534b841fb8bb424f7ad6dd068c69b6fe7a4ba",
+  "provision": "Goa RTI Fee and Cost Rules 2006, consolidated with 2007 and 2008 amendments",
+  "excerpt": "The consolidated official manual records the ten-rupee application fee, cash, court-fee-stamp, demand-draft and banker's-cheque modes, information charges, and the higher-fee exception.",
+  "status": "verified",
+  "notes": "Official Government of Goa compilation captured as inert data, size-capped, PDF-signature checked, hashed and Defender-scanned. Gazette records separately verify both amendments.",
+  "review": {
+    "technical": { "status": "approved", "reviewer": "Codex", "reviewedAt": "2026-08-27T19:45:00+05:30", "notes": "Fee provisions and amendment chain technically verified." },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Required before filing-ready activation." }
+  }
+}

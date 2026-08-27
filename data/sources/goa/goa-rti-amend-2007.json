@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "GOA-RTI-AMEND-2007",
+  "title": "Goa Right to Information (Regulation of Fee and Cost) (Amendment) Rules, 2007",
+  "issuer": "Department of Information and Publicity, Government of Goa",
+  "jurisdiction": "goa",
+  "url": "https://goaprintingpress.gov.in/downloads/0708/0708-17-SI-OG.pdf",
+  "publishedOn": "2007-07-26",
+  "effectiveFrom": "2007-07-26",
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-27T19:45:00+05:30",
+  "contentType": "application/pdf",
+  "sizeBytes": 267942,
+  "sha256": "ee573f31fb64b9cec5b638d70beb6acdd1b37c3866182f4a9819e375110813ed",
+  "provision": "Amendment of Rule 3(1)",
+  "excerpt": "The amendment adds a ten-rupee court-fee stamp as an application-fee payment method.",
+  "status": "verified",
+  "notes": "Official Gazette Series I No. 17 captured as inert data, size-capped, PDF-signature checked, hashed and Defender-scanned.",
+  "review": {
+    "technical": { "status": "approved", "reviewer": "Codex", "reviewedAt": "2026-08-27T19:45:00+05:30", "notes": "Payment-mode amendment verified." },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Required before filing-ready activation." }
+  }
+}

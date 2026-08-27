@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "GOA-RTI-AMEND-2008",
+  "title": "Goa Right to Information (Regulation of Fee and Cost) (Second Amendment) Rules, 2008",
+  "issuer": "Department of Information and Publicity, Government of Goa",
+  "jurisdiction": "goa",
+  "url": "https://goaprintingpress.gov.in/downloads/0708/0708-46-SI-OG.pdf",
+  "publishedOn": "2008-02-14",
+  "effectiveFrom": "2008-02-14",
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-27T19:45:00+05:30",
+  "contentType": "application/pdf",
+  "sizeBytes": 526852,
+  "sha256": "ef4a7c1b69590aecbd14fedcfe95a8fdd67a65b4fb05f80fa034f5bf40c70c82",
+  "provision": "Insertion of Rule 4",
+  "excerpt": "Rule 4 permits a higher fee for inspection, search, certified copies or extracts when rules under another applicable law prescribe that higher fee.",
+  "status": "verified",
+  "notes": "Official Gazette Series I No. 46 captured as inert data, size-capped, PDF-signature checked, hashed and Defender-scanned.",
+  "review": {
+    "technical": { "status": "approved", "reviewer": "Codex", "reviewedAt": "2026-08-27T19:45:00+05:30", "notes": "Higher-fee exception verified." },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Review product wording and when the exception applies." }
+  }
+}

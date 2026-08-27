@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/jurisdiction.schema.json",
+  "id": "goa",
+  "name": "Goa",
+  "legalDataVersion": "2026.08.5",
+  "status": "research",
+  "reviewedAt": "2026-08-27",
+  "staleAfter": "2027-02-27",
+  "portal": {
+    "url": "https://rtionline.goa.gov.in/",
+    "coverage": "Departments, offices, sub-offices and listed public authorities of the Government of Goa; requests for authorities outside Goa State Government may be returned without a fee refund.",
+    "textLimit": 3000,
+    "attachment": { "formats": ["application/pdf"], "maxBytes": null }
+  },
+  "application": {
+    "fee": { "amountPaise": 1000, "currency": "INR" },
+    "bplExempt": true,
+    "bplEvidence": "Copy of a below-poverty-line certificate issued by the appropriate government.",
+    "paymentModes": ["cash-receipt", "court-fee-stamp", "demand-draft", "bankers-cheque", "net-banking", "credit-card", "debit-card", "upi"],
+    "filingRoutes": ["online", "post", "in-person"],
+    "prescribedForm": false,
+    "identityEvidence": "No general identity-document requirement is encoded; BPL proof is required only when claiming the exemption.",
+    "sourceIds": ["IN-RTI-ACT-CURRENT", "GOA-RTI-RULES-CONSOLIDATED", "GOA-RTI-AMEND-2007", "GOA-RTI-AMEND-2008", "GOA-PORTAL-HOME", "GOA-PORTAL-FAQ", "GOA-PORTAL-MANUAL"]
+  },
+  "firstAppeal": {
+    "fee": { "amountPaise": 0, "currency": "INR" },
+    "bplExempt": null,
+    "bplEvidence": null,
+    "paymentModes": [],
+    "filingRoutes": ["online", "post", "in-person"],
+    "prescribedForm": false,
+    "identityEvidence": null,
+    "sourceIds": ["IN-RTI-ACT-CURRENT", "GOA-PORTAL-HOME", "GOA-PORTAL-FAQ"]
+  },
+  "sources": ["IN-RTI-ACT-CURRENT", "GOA-RTI-RULES-CONSOLIDATED", "GOA-RTI-AMEND-2007", "GOA-RTI-AMEND-2008", "GOA-PORTAL-HOME", "GOA-PORTAL-FAQ", "GOA-PORTAL-MANUAL"]
+}

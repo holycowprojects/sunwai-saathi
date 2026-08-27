@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "GOA-PORTAL-MANUAL",
+  "title": "Goa RTI Online applicant module user manual",
+  "issuer": "National Informatics Centre, Goa State Centre",
+  "jurisdiction": "goa",
+  "url": "https://rtionline.goa.gov.in/Applicant_Module_User_Manual.pdf",
+  "publishedOn": null,
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-27T19:45:00+05:30",
+  "contentType": "application/pdf",
+  "sizeBytes": 2142049,
+  "sha256": "2e0577bc1234b3edf3cd31d8178f88a23aedd80a94689d71a74ffeb11621478f",
+  "provision": "Portal application and payment workflow",
+  "excerpt": "The manual confirms the ten-rupee online application fee, BPL card details, Internet banking, cards and UPI, registration receipts, additional-payment workflow and electronic replies.",
+  "status": "verified",
+  "notes": "Captured as inert data, size-capped, PDF-signature checked, hashed and Defender-scanned. Demonstration applicant data is not reproduced in the repository.",
+  "review": {
+    "technical": { "status": "approved", "reviewer": "Codex", "reviewedAt": "2026-08-27T19:45:00+05:30", "notes": "Application and payment workflow verified." },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Required before filing-ready activation." }
+  }
+}

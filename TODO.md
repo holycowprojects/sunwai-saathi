@@ -97,13 +97,13 @@
 
 ### Goa dossier
 
-- [ ] Verify application fee and BPL exemption/evidence requirements.
-- [ ] Verify online/offline payment methods and portal coverage.
-- [ ] Verify prescribed form, attachments, text limits, and identity requirements.
-- [ ] Verify first-appeal fee, form, filing route, and evidence requirements.
+- [x] Verify application fee and BPL exemption/evidence requirements in [GOA_RESEARCH_BASELINE.md](./docs/legal-data/GOA_RESEARCH_BASELINE.md).
+- [x] Verify online/offline payment methods and portal coverage.
+- [x] Verify application format, PDF attachment support, 3,000-character portal limit, and identity requirements; retain unknown attachment size.
+- [x] Verify online first-appeal fee and filing identifiers; offline form/evidence details remain a review gate.
 - [ ] Record official authority/PIO/FAA directory sources.
 - [ ] Record source metadata, provisions, effective dates, and checksums.
-- [ ] Classify the Goa profile as reviewed or non-filing-ready.
+- [x] Classify the Goa profile as non-filing-ready (`research`) pending legal/RTI and authority review.
 
 ### Legal-data design
 

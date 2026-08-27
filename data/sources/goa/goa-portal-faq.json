@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "GOA-PORTAL-FAQ",
+  "title": "Goa RTI Online frequently asked questions",
+  "issuer": "Department of Information and Publicity, Government of Goa",
+  "jurisdiction": "goa",
+  "url": "https://rtionline.goa.gov.in/FAQ.pdf",
+  "publishedOn": null,
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-27T19:45:00+05:30",
+  "contentType": "application/pdf",
+  "sizeBytes": 386353,
+  "sha256": "fb7de60a07a06e4d6d4ded9d1eb555af509381f57bbe8a72b757d1a27b3d256f",
+  "provision": "Portal request, fee, BPL and first-appeal behavior",
+  "excerpt": "The FAQ sets a 3,000-character request field, permits a PDF for longer text, requires BPL certificate attachment, and states that online first appeal has no fee and needs the original registration number and email address.",
+  "status": "verified",
+  "notes": "Captured as inert data, size-capped, PDF-signature checked, hashed and Defender-scanned. Its unexplained reference to RTI Rules, 2012 requires legal review against Goa's 2006–2008 rule chain.",
+  "review": {
+    "technical": { "status": "approved", "reviewer": "Codex", "reviewedAt": "2026-08-27T19:45:00+05:30", "notes": "Portal field, BPL and appeal behavior verified." },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Resolve the portal's 2012-rules reference before filing-ready activation." }
+  }
+}

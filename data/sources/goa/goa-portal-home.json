@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "GOA-PORTAL-HOME",
+  "title": "Goa RTI Online portal",
+  "issuer": "Department of Information and Publicity, Government of Goa",
+  "jurisdiction": "goa",
+  "url": "https://rtionline.goa.gov.in/",
+  "publishedOn": null,
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-27T19:45:00+05:30",
+  "contentType": "text/html",
+  "sizeBytes": null,
+  "sha256": null,
+  "provision": "Portal scope, filing stages and payment gateway",
+  "excerpt": "The portal supports applications and first and second appeals for listed Goa State Government public authorities, with Internet banking, cards and UPI through e-Challan.",
+  "status": "verified",
+  "notes": "Current page reports an update date of 14 August 2026. Second-appeal drafting remains outside v1 scope despite portal availability.",
+  "review": {
+    "technical": { "status": "approved", "reviewer": "Codex", "reviewedAt": "2026-08-27T19:45:00+05:30", "notes": "Current public portal scope and filing stages inspected." },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Operational behavior must be reviewed with the rules." }
+  }
+}

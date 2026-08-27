@@ -107,12 +107,15 @@ See [Maharashtra v1 legacy baseline](./MAHARASHTRA_V1_BASELINE.md) for the exact
 
 | ID | Source role | Official source | Preliminary finding | Status | Follow-up |
 |---|---|---|---|---|---|
-| `GOA-PORTAL-HOME` | Authority directory and portal discovery | [Goa RTI citizen gateway](https://rti.goa.gov.in/) | Official department/office directory and links to state RTI services | `verified` (technical) | Map online application/first-appeal availability and coverage |
-| `GOA-RULES-2006` | State fee rules | [Goa government-hosted RTI Act and Rules compilation](https://tcp.goa.gov.in/wp-content/uploads/2016/11/rti.pdf) | Compilation states ₹10 application fee via cash, ₹10 court-fee stamp, demand draft or banker’s cheque; includes 2007 amendment | `unverified` | Hash file; confirm no later amendments; legal/RTI review |
-| `GOA-REQUEST-GUIDE` | General request guidance | [Goa request-information guide](https://rti.goa.gov.in/requestforinf.aspx) | Describes writing/electronic request, BPL exemption, standard timing and delayed-information fee consequence | `unverified` | Separate exceptional timing because MVP supports standard cases only |
+| `GOA-RTI-RULES-CONSOLIDATED` | Consolidated state fee rules | [Goa government-hosted RTI Act and Rules compilation](https://tcp.goa.gov.in/wp-content/uploads/2016/11/rti.pdf) | ₹10 application fee; cash, court-fee stamp, demand draft or banker's cheque; information charges and 2008 higher-fee exception | `verified` (technical) | Legal/RTI review; hash recorded |
+| `GOA-RTI-AMEND-2007` | Court-fee-stamp amendment | [Official Gazette Series I No. 17](https://goaprintingpress.gov.in/downloads/0708/0708-17-SI-OG.pdf) | Adds a ₹10 court-fee stamp as an application-fee method | `verified` (technical) | Legal/RTI review; hash recorded |
+| `GOA-RTI-AMEND-2008` | Higher-fee exception | [Official Gazette Series I No. 46](https://goaprintingpress.gov.in/downloads/0708/0708-46-SI-OG.pdf) | Rule 4 permits higher inspection/search/certified-copy fees prescribed by rules under another applicable law | `verified` (technical) | Legal/RTI review and product-warning approval; hash recorded |
+| `GOA-PORTAL-HOME` | Portal scope and filing stages | [Goa RTI Online](https://rtionline.goa.gov.in/) | Applications and first/second appeals for Goa State authorities; e-Challan supports Internet banking, cards and UPI | `verified` (technical) | Verify covered authority list; second appeal remains out of v1 scope |
+| `GOA-PORTAL-FAQ` | Request and first-appeal operation | [Goa RTI Online FAQ](https://rtionline.goa.gov.in/FAQ.pdf) | 3,000-character field, PDF overflow attachment, BPL certificate, zero first-appeal fee, registration number and email required online | `verified` (technical) | Resolve unexplained “RTI Rules, 2012” reference; hash recorded |
+| `GOA-PORTAL-MANUAL` | Application/payment workflow | [Goa applicant module manual](https://rtionline.goa.gov.in/Applicant_Module_User_Manual.pdf) | ₹10 fee, BPL card details, online payment, receipt, additional-payment and reply workflows | `verified` (technical) | Legal/RTI review; hash recorded |
 | `GOA-LEGACY-1997` | Legacy-law warning | [Goa Department of Information — Goa RTI Act 1997](https://dip.goa.gov.in/goa-right-to-information-act-1997/) | Official site retains pre-national-Act state law | `superseded` pending legal confirmation | Must not populate current workflow; document repeal/supersession authority |
 
-**Profile state:** `unverified`; confirm current rules/amendments and online first-appeal route.
+**Profile state:** `research`; the 2006–2008 rule chain and current portal behavior are technically captured, but filing-ready output remains blocked pending legal/RTI review, resolution of the portal's 2012-rules reference, attachment-limit confirmation and authority review. See [Goa research baseline](./GOA_RESEARCH_BASELINE.md).
 
 ## Checksum backlog
 
