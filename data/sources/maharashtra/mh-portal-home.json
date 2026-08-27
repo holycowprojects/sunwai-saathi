@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "MH-PORTAL-HOME",
+  "title": "Maharashtra RTI Online portal",
+  "issuer": "General Administration Department, Government of Maharashtra",
+  "jurisdiction": "maharashtra",
+  "url": "https://rtionline.maharashtra.gov.in/",
+  "publishedOn": null,
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-27T20:20:00+05:30",
+  "contentType": "text/html",
+  "sizeBytes": null,
+  "sha256": null,
+  "provision": "Portal scope, authority directory, filing stages and payment methods",
+  "excerpt": "The portal supports applications and first appeals for listed Maharashtra Government authorities, excludes Central and other State authorities, and lists Internet banking and card payments.",
+  "status": "verified",
+  "notes": "The live portal also publishes 2026-rule material, which is excluded from the v1 legacy baseline and deferred to v2 under project policy.",
+  "review": {
+    "technical": { "status": "approved", "reviewer": "Codex", "reviewedAt": "2026-08-27T20:20:00+05:30", "notes": "Current portal scope and public-authority directory inspected." },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Review operational use separately from the deferred 2026 legal material." }
+  }
+}

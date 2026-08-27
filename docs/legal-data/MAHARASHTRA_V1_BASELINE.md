@@ -1,6 +1,6 @@
 # Maharashtra v1 Legacy Baseline
 
-**Dataset version:** `2026.08.1`
+**Dataset version:** `2026.08.6`
 
 **Technical review date:** 27 August 2026
 
@@ -23,7 +23,11 @@ This is a versioned product policy, not a legal conclusion that the pre-June rul
 | Offline application payment | Cash against receipt, demand draft, banker's cheque, or ₹10 court-fee stamp | Rule 3 of the 2005 Rules |
 | Subject scope | One subject matter per request | Rule 3A inserted by the 16 Jan 2012 amendment |
 | Request length | Ordinarily no more than 150 words | Rule 3A inserted by the 16 Jan 2012 amendment |
+| Portal overflow | Text over 150 words may be attached as PDF up to 1 MB | Official citizen manual |
+| Online application payment | Net banking or major debit/credit cards | Official citizen manual and current portal |
 | First-appeal fee | ₹20 | Official SIC format and Maharashtra RTI Online FAQ |
+| First-appeal evidence | Copies of the original application and papers submitted to or received from the PIO | Official SIC format |
+| Online first appeal | Original registration number; PDF supporting document up to 1 MB; net banking or major cards | Official citizen manual and portal FAQ |
 | Identity evidence | No general photo-ID requirement encoded | Pre-June Annexure A evidence reviewed so far; the explicit identity field appears in the 19 Jun 2026 replacement form |
 | BPL application fee | Exempt, subject to proof of BPL status | RTI Act Section 7(5) proviso and Annexure A |
 
@@ -47,12 +51,15 @@ The raw PDFs were downloaded to an untracked temporary directory. Only their met
 | `MH-RTI-RULES-2005` | 11 Oct 2005 | 905,576 | `1bb69929e302f2cf844936dc4bc34d4a96899b1295923ae43075035e03a1f4a4` |
 | `MH-RTI-AMEND-2012-SINGLE-SUBJECT` | 16 Jan 2012 | 57,444 | `492c8d1a99881c3e93f422f8b8f18dd76cff59b53e7fd35af326598529add63b` |
 | `MH-RTI-NOTIFICATION-2013-FEE-FORM` | 23 Apr 2013 | 25,468 | `143bc0fb775cfc1290db822aeaf4388a4032a42fb0e2d3daf9d3f4ae670fead6` |
+| `MH-RTI-FORMAT` | Publication date unavailable | 1,838,760 | `54d6bf0a6ebe1f1af0014d3a10483f44786fab079d48a32c8028ace3e6ef0f84` |
+| `MH-PORTAL-FAQ` | Publication date unavailable | 204,747 | `6a3269588e94bda51f4b40150aaeb4571deabcf569db849681452826be3fec6f` |
+| `MH-PORTAL-MANUAL` | Publication date unavailable | 4,368,976 | `ee3ba7304bfd6d30c067597df449386cb0c25cdee48b39a52aff841f03a41f17` |
 
 ## Unresolved review gates
 
 1. Obtain an accessible official Gazette copy or independent two-person transcription of the scanned 23 April 2013 fee/form notification.
-2. Reconcile all offline payment modes and the first-appeal fee against the complete amendment chain.
-3. Verify current portal coverage, attachment limits, and live payment behavior without importing 2026-only legal requirements.
+2. Reconcile the first-appeal fee and all payment modes against the still-incomplete amendment chain.
+3. Confirm that using current operational portal instructions does not import a requirement introduced only by the deferred 2026 instruments.
 4. Have an identified legal/RTI reviewer approve the baseline.
 5. Add automated tests for one-subject scope, the ordinary 150-word ceiling, ₹10 application fee, ₹20 first-appeal fee, and absence of a default photo-ID demand.
 

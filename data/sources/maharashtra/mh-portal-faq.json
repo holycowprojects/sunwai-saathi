@@ -10,12 +10,12 @@
   "effectiveTo": null,
   "retrievedAt": "2026-08-27T17:48:59+05:30",
   "contentType": "application/pdf",
-  "sizeBytes": null,
-  "sha256": null,
+  "sizeBytes": 204747,
+  "sha256": "6a3269588e94bda51f4b40150aaeb4571deabcf569db849681452826be3fec6f",
   "provision": "Online first-appeal instructions",
   "excerpt": "The portal FAQ states that the fee for filing a first appeal is twenty rupees.",
   "status": "verified",
-  "notes": "Operational portal evidence, not a substitute for the operative rule. Checksum and live-flow verification remain pending.",
+  "notes": "Operational portal evidence, not a substitute for the operative rule. Captured as inert data, size-capped, PDF-signature checked, hashed and Defender-scanned.",
   "review": {
     "technical": { "status": "approved", "reviewer": "Codex", "reviewedAt": "2026-08-27T17:48:59+05:30", "notes": "Official portal FAQ inspected." },
     "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Required before filing-ready activation." }

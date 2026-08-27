@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "MH-PORTAL-MANUAL",
+  "title": "Maharashtra RTI Online citizen user manual",
+  "issuer": "General Administration Department, Government of Maharashtra and National Informatics Centre",
+  "jurisdiction": "maharashtra",
+  "url": "https://rtionline.maharashtra.gov.in/UMcitizen_Eng_maha.pdf",
+  "publishedOn": null,
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-27T20:20:00+05:30",
+  "contentType": "application/pdf",
+  "sizeBytes": 4368976,
+  "sha256": "ee3ba7304bfd6d30c067597df449386cb0c25cdee48b39a52aff841f03a41f17",
+  "provision": "Application and first-appeal portal workflow",
+  "excerpt": "The manual records the 150-word request field, PDF attachments up to 1 MB, BPL certificate upload, ten-rupee application fee, twenty-rupee first-appeal fee, online payment methods and routing through nodal officers.",
+  "status": "verified",
+  "notes": "Captured as inert data, size-capped, PDF-signature checked, hashed and Defender-scanned. Demonstration applicant data is not reproduced in the repository. References to RTI Rules, 2012 require legal review in the Maharashtra context.",
+  "review": {
+    "technical": { "status": "approved", "reviewer": "Codex", "reviewedAt": "2026-08-27T20:20:00+05:30", "notes": "Portal limits, fees, evidence and payment workflow verified." },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Reconcile its 2012-rules wording with the Maharashtra amendment chain." }
+  }
+}

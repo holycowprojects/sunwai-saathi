@@ -10,12 +10,12 @@
   "effectiveTo": null,
   "retrievedAt": "2026-08-27T17:48:59+05:30",
   "contentType": "application/pdf",
-  "sizeBytes": null,
-  "sha256": null,
+  "sizeBytes": 1838760,
+  "sha256": "54d6bf0a6ebe1f1af0014d3a10483f44786fab079d48a32c8028ace3e6ef0f84",
   "provision": "Annexures A and B",
   "excerpt": "The published format shows a ten-rupee court-fee stamp for an application and a twenty-rupee court-fee stamp for a first appeal.",
   "status": "verified",
-  "notes": "Checksum capture and legal/RTI approval remain pending.",
+  "notes": "Captured as inert data, size-capped, PDF-signature checked, hashed and Defender-scanned. The first-appeal guidance calls for copies of the application and PIO correspondence.",
   "review": {
     "technical": { "status": "approved", "reviewer": "Codex", "reviewedAt": "2026-08-27T17:48:59+05:30", "notes": "Official SIC format inspected." },
     "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Required before filing-ready activation." }

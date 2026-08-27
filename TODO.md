@@ -85,15 +85,15 @@
 
 - [ ] Verify from primary official sources the Maharashtra rules and amendments applying immediately before the June 2026 publication.
 - [x] Define and version the Maharashtra v1 legacy baseline; retain pre-2026 Rule 3A and exclude changes introduced only by disputed 2026 instruments.
-- [ ] Require Maharashtra v1 submission packs to display the baseline and last-reviewed date.
-- [ ] Defer investigation of the 2026 rules’ current operative status to the v2 research cycle.
-- [ ] Verify application fee and BPL exemption/evidence requirements.
-- [ ] Verify online/offline payment methods and portal coverage.
-- [ ] Verify prescribed application format, word/text limits, attachments, and proof-of-identity requirement.
-- [ ] Verify first-appeal fee, form, filing route, and evidence requirements.
+- [x] Require Maharashtra v1 submission packs to display the baseline and last-reviewed date in [MAHARASHTRA_V1_BASELINE.md](./docs/legal-data/MAHARASHTRA_V1_BASELINE.md).
+- [x] Defer investigation of the 2026 rules’ current operative status to the v2 research cycle.
+- [x] Verify application fee and BPL exemption/evidence requirements for the v1 baseline.
+- [x] Verify offline/online payment methods and portal coverage, pending final amendment-chain reconciliation.
+- [x] Verify prescribed application format, 150-word limit, 1 MB PDF overflow, and absence of a pre-June general photo-ID field.
+- [x] Verify first-appeal fee, prescribed form, online/offline route, supporting papers, and 1 MB portal attachment.
 - [ ] Record official authority/PIO/FAA directory sources.
 - [ ] Record source metadata, provisions, effective dates, and checksums.
-- [ ] Classify the Maharashtra profile as reviewed or non-filing-ready.
+- [x] Classify the Maharashtra profile as non-filing-ready (`research`) pending the 2013 notification, complete amendment chain, legal/RTI and authority review.
 
 ### Goa dossier
 
