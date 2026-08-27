@@ -83,7 +83,10 @@
 
 ### Maharashtra dossier
 
-- [ ] Verify the operative Maharashtra RTI Rules and effective date as of the research date.
+- [ ] Verify from primary official sources the Maharashtra rules and amendments applying immediately before the June 2026 publication.
+- [ ] Define and version the Maharashtra v1 legacy baseline; exclude all disputed 2026 changes.
+- [ ] Require Maharashtra v1 submission packs to display the baseline and last-reviewed date.
+- [ ] Defer investigation of the 2026 rules’ current operative status to the v2 research cycle.
 - [ ] Verify application fee and BPL exemption/evidence requirements.
 - [ ] Verify online/offline payment methods and portal coverage.
 - [ ] Verify prescribed application format, word/text limits, attachments, and proof-of-identity requirement.
@@ -325,6 +328,7 @@
 
 ## Post-beta recommendations — not MVP tasks
 
+- [ ] Reassess the Maharashtra Right to Information Rules, 2026 from primary official status instruments and legal/RTI review before changing the v1 legacy baseline.
 - [ ] Conduct external usability research with citizens and NGO/RTI volunteers.
 - [ ] Evaluate additional jurisdictions through the same primary-source and review process.
 - [ ] Consider second-appeal drafting only after verified commission-specific data exists.

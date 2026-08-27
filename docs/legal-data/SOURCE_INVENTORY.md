@@ -81,7 +81,17 @@ When official sources conflict, appear stale, or mix repealed and current regime
 | `MH-PORTAL-HOME` | Portal scope | [Maharashtra RTI Online](https://rtionline.maharashtra.gov.in/) | Maharashtra authorities only; application and first-appeal portal | `verified` (technical) | Verify coverage, payment methods, limits and current instructions |
 | `MH-RULES-HUB` | Official rules discovery | [Maharashtra Directorate of Municipal Administration RTI page](https://mahadma.maharashtra.gov.in/en/rti/) | Links current Maharashtra RTI Rules, 2026 and official portal | `verified` (discovery) | Resolve underlying rules file URL and checksum |
 
-**Profile state:** `unverified`; the claimed ₹30 fee must not be encoded until verified from the operative rules.
+**Profile state:** `v1-legacy-baseline`. Maharashtra remains in MVP scope and may produce filing-ready output in v1 using only the last primary-source-verified rules that applied before the June 2026 publication. The claimed ₹30 fee, mandatory photo-ID requirement, one-subject restriction, and revised 2026 forms must not be encoded in v1.
+
+### Maharashtra 2026 status conflict
+
+- Official Maharashtra portals continue to publish and link the Maharashtra Right to Information Rules, 2026 and the 19 June 2026 amendment.
+- Multiple credible news organizations reported on 2 July 2026 that the State Government placed the new rules in abeyance.
+- A news report, political statement, or portal banner is not sufficient to resolve the operative legal position under the project’s primary-source-only policy.
+- Required resolution evidence is a Gazette notification, government order/circular, State Information Commission order, or another primary official instrument that clearly states the rules’ current legal or operational status.
+- V1 deliberately uses the pre-June-2026 rules after those rules are independently verified from primary official sources. This is a product-version policy, not a conclusion about the legal effect of the reported stay.
+- Every Maharashtra v1 submission pack must identify the pre-June-2026 rules baseline and its last verification date.
+- The legal and operational status of the 2026 rules is deferred to the v2 research cycle. V2 must not change Maharashtra behavior until primary official evidence and legal/RTI review are complete.
 
 ## Goa profile
 
@@ -104,4 +114,3 @@ Checksums are intentionally pending until source files are downloaded through a 
 4. record retrieval time, response content type, size and resolved URL;
 5. require review before a changed checksum updates an approved record; and
 6. never treat availability or an unchanged checksum as proof that a rule remains legally operative.
-
