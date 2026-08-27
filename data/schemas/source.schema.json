@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sunwai-saathi.org/schemas/source.schema.json",
+  "title": "SunwaiSaathi Primary Source",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "issuer",
+    "jurisdiction",
+    "url",
+    "retrievedAt",
+    "status",
+    "review"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[A-Z0-9][A-Z0-9-]+$" },
+    "title": { "type": "string", "minLength": 1 },
+    "issuer": { "type": "string", "minLength": 1 },
+    "jurisdiction": {
+      "enum": ["india", "central", "delhi", "haryana", "maharashtra", "goa"]
+    },
+    "url": { "type": "string", "format": "uri", "pattern": "^https://" },
+    "resolvedUrl": { "type": "string", "format": "uri", "pattern": "^https://" },
+    "publishedOn": { "type": ["string", "null"], "format": "date" },
+    "effectiveFrom": { "type": ["string", "null"], "format": "date" },
+    "effectiveTo": { "type": ["string", "null"], "format": "date" },
+    "retrievedAt": { "type": "string", "format": "date-time" },
+    "contentType": { "type": ["string", "null"] },
+    "sizeBytes": { "type": ["integer", "null"], "minimum": 0 },
+    "sha256": { "type": ["string", "null"], "pattern": "^[a-f0-9]{64}$" },
+    "provision": { "type": ["string", "null"] },
+    "excerpt": { "type": ["string", "null"], "maxLength": 1000 },
+    "status": {
+      "enum": ["unverified", "verified", "corrected", "disputed", "unsupported", "superseded"]
+    },
+    "notes": { "type": ["string", "null"] },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["technical", "legalRti"],
+      "properties": {
+        "technical": { "$ref": "#/$defs/reviewDecision" },
+        "legalRti": { "$ref": "#/$defs/reviewDecision" }
+      }
+    }
+  },
+  "$defs": {
+    "reviewDecision": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status"],
+      "properties": {
+        "status": { "enum": ["pending", "approved", "changes-requested"] },
+        "reviewer": { "type": ["string", "null"] },
+        "reviewedAt": { "type": ["string", "null"], "format": "date-time" },
+        "notes": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

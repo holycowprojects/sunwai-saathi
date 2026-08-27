@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sunwai-saathi.org/schemas/jurisdiction.schema.json",
+  "title": "SunwaiSaathi Jurisdiction Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "legalDataVersion",
+    "status",
+    "reviewedAt",
+    "application",
+    "firstAppeal",
+    "sources"
+  ],
+  "properties": {
+    "id": { "enum": ["central", "delhi", "haryana", "maharashtra", "goa"] },
+    "name": { "type": "string", "minLength": 1 },
+    "legalDataVersion": { "type": "string", "pattern": "^[0-9]{4}\\.[0-9]{2}\\.[0-9]+$" },
+    "status": { "enum": ["research", "technical-reviewed", "filing-ready", "stale", "disabled"] },
+    "reviewedAt": { "type": ["string", "null"], "format": "date" },
+    "staleAfter": { "type": ["string", "null"], "format": "date" },
+    "portal": { "$ref": "#/$defs/portal" },
+    "application": { "$ref": "#/$defs/filingStage" },
+    "firstAppeal": { "$ref": "#/$defs/filingStage" },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^[A-Z0-9][A-Z0-9-]+$" }
+    }
+  },
+  "$defs": {
+    "money": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["amountPaise", "currency"],
+      "properties": {
+        "amountPaise": { "type": "integer", "minimum": 0 },
+        "currency": { "const": "INR" }
+      }
+    },
+    "portal": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["url", "coverage"],
+      "properties": {
+        "url": { "type": "string", "format": "uri", "pattern": "^https://" },
+        "coverage": { "type": "string", "minLength": 1 },
+        "textLimit": { "type": ["integer", "null"], "minimum": 1 },
+        "attachment": {
+          "type": ["object", "null"],
+          "additionalProperties": false,
+          "required": ["formats", "maxBytes"],
+          "properties": {
+            "formats": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+            "maxBytes": { "type": ["integer", "null"], "minimum": 1 }
+          }
+        }
+      }
+    },
+    "filingStage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["fee", "bplExempt", "paymentModes", "filingRoutes", "sourceIds"],
+      "properties": {
+        "fee": { "oneOf": [{ "$ref": "#/$defs/money" }, { "type": "null" }] },
+        "bplExempt": { "type": ["boolean", "null"] },
+        "bplEvidence": { "type": ["string", "null"] },
+        "paymentModes": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+        "filingRoutes": { "type": "array", "items": { "enum": ["online", "post", "in-person"] }, "uniqueItems": true },
+        "prescribedForm": { "type": ["boolean", "null"] },
+        "identityEvidence": { "type": ["string", "null"] },
+        "sourceIds": { "type": "array", "minItems": 1, "items": { "type": "string" }, "uniqueItems": true }
+      }
+    }
+  }
+}

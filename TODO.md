@@ -31,11 +31,11 @@
 
 ### Research framework
 
-- [ ] Define the primary-source inventory template.
-- [ ] Define legal-claim statuses: unverified, verified, corrected, disputed, unsupported, superseded.
-- [ ] Define citation, retrieval-date, effective-date, provision-reference, and checksum conventions.
-- [ ] Define conflict-handling rules for inconsistent official sources.
-- [ ] Create separate research dossiers for Central, Delhi, Haryana, Maharashtra, and Goa.
+- [x] Define the primary-source inventory template in [SOURCE_INVENTORY.md](./docs/legal-data/SOURCE_INVENTORY.md).
+- [x] Define legal-claim statuses: unverified, verified, corrected, disputed, unsupported, superseded.
+- [x] Define citation, retrieval-date, effective-date, provision-reference, and checksum conventions.
+- [x] Define conflict-handling rules for inconsistent official sources.
+- [x] Create separate research dossiers for Central, Delhi, Haryana, Maharashtra, and Goa.
 
 ### National statutory baseline
 
@@ -104,9 +104,9 @@
 
 ### Legal-data design
 
-- [ ] Define the source-provenance schema.
+- [x] Define the initial [source-provenance schema](./data/schemas/source.schema.json).
 - [ ] Define the legal-rule schema with effective and review dates.
-- [ ] Define independent jurisdiction profile schema.
+- [x] Define the initial independent [jurisdiction profile schema](./data/schemas/jurisdiction.schema.json).
 - [ ] Define authority/PIO/FAA office-and-designation schema without personal officer names.
 - [ ] Define reviewed, stale, unsupported, and filing-ready state semantics.
 - [ ] Define separate application and legal-data version formats.
@@ -127,15 +127,15 @@
 
 ### Safety, review, and traceability
 
-- [ ] Create the supported/unsupported scenario matrix.
+- [x] Create the [supported/unsupported scenario matrix](./docs/product/SUPPORTED_CASES.md).
 - [ ] Define standard 30-day confirmed-versus-estimated deadline behavior.
 - [ ] Document exceptional deadline cases as detected but unsupported.
 - [ ] Define the six first-appeal outcome categories and required official inputs.
-- [ ] Create the legal/RTI reviewer checklist.
+- [x] Create the [legal/RTI reviewer checklist](./docs/legal-data/REVIEW_CHECKLIST.md).
 - [ ] Identify and confirm a volunteer legal/RTI reviewer.
 - [ ] Identify and confirm a proficient Hindi reviewer.
-- [ ] Create the Milestone 1 risk register.
-- [ ] Create the requirement-to-source-and-test traceability matrix.
+- [x] Create the [Milestone 1 risk register](./docs/risk/MILESTONE_1_RISKS.md).
+- [x] Create the initial [requirement-to-source-and-test traceability matrix](./docs/product/TRACEABILITY.md).
 - [ ] Classify every initial legal claim in `SPEC.md`.
 - [ ] Complete technical consistency review.
 - [ ] Complete designated legal/RTI review.
