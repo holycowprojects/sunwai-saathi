@@ -73,13 +73,13 @@
 
 ### Haryana dossier
 
-- [ ] Verify application fee and BPL exemption/evidence requirements.
-- [ ] Verify online/offline payment methods and portal coverage.
-- [ ] Verify prescribed form, attachments, text limits, and identity requirements.
-- [ ] Verify first-appeal fee, form, filing route, and evidence requirements.
+- [x] Verify application fee and BPL exemption/evidence requirements in [HARYANA_RESEARCH_BASELINE.md](./docs/legal-data/HARYANA_RESEARCH_BASELINE.md).
+- [x] Verify online/offline payment methods and portal coverage constraints.
+- [x] Verify preferred Model Form A, attachments, text limits, and the mandatory identity-proof requirement.
+- [x] Verify first-appeal fee, filing route, attachments, and evidence requirements.
 - [ ] Record official authority/PIO/FAA directory sources.
 - [ ] Record source metadata, provisions, effective dates, and checksums.
-- [ ] Classify the Haryana profile as reviewed or non-filing-ready.
+- [x] Classify the Haryana profile as non-filing-ready (`research`) pending legal/RTI, privacy and authority review.
 
 ### Maharashtra dossier
 

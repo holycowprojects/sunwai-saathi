@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "HARYANA-RTI-AMEND-2016",
+  "title": "Haryana Right to Information (Amendment) Rules, 2016",
+  "issuer": "Administrative Reforms Department, Government of Haryana",
+  "jurisdiction": "haryana",
+  "url": "https://csharyana.gov.in/WriteReadData/Notifications%20%26%20Orders/Administrative%20Reforms/5380.pdf",
+  "publishedOn": "2016-03-18",
+  "effectiveFrom": "2016-03-18",
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-27T19:06:52+05:30",
+  "contentType": "application/pdf",
+  "sizeBytes": 219415,
+  "sha256": "2bd851c4277a6a4ecbdb87cd95d655fb0cf296b7c0a71c2ee3614b4a810b0689",
+  "provision": "Substituted Rule 5",
+  "excerpt": "Rule 5 sets a ten-rupee application fee and an ordinary 500-word limit, while prohibiting rejection solely because an application exceeds that length.",
+  "status": "verified",
+  "notes": "Official Gazette PDF captured as inert data, size-capped, signature checked, hashed and Defender-scanned.",
+  "review": {
+    "technical": { "status": "approved", "reviewer": "Codex", "reviewedAt": "2026-08-27T19:06:52+05:30", "notes": "Fee and word-limit provisions verified." },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Required before filing-ready activation." }
+  }
+}

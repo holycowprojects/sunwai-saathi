@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "HARYANA-RTI-RULE10-2018",
+  "title": "Haryana RTI Rule 10 amendment record",
+  "issuer": "Administrative Reforms Department, Government of Haryana",
+  "jurisdiction": "haryana",
+  "url": "https://csharyana.gov.in/WriteReadData/Circular/Administrative%20Reforms/10414.pdf",
+  "publishedOn": null,
+  "effectiveFrom": "2018-07-03",
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-27T19:06:52+05:30",
+  "contentType": "application/pdf",
+  "sizeBytes": 333758,
+  "sha256": "0d21bd3fdb4b7d32e594d5e13dc2530494c8771241737c54152376192c8ad4ee",
+  "provision": "Rule 10",
+  "excerpt": "The official record identifies the 3 July 2018 Rule 10 amendment concerning Commission penalties under Section 20.",
+  "status": "verified",
+  "notes": "No citizen application-field change identified. Captured as inert data, size-capped, signature checked, hashed and Defender-scanned.",
+  "review": {
+    "technical": { "status": "approved", "reviewer": "Codex", "reviewedAt": "2026-08-27T19:06:52+05:30", "notes": "Recorded for amendment-chain completeness." },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Confirm effect in consolidated legal review." }
+  }
+}

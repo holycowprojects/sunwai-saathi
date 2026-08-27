@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/jurisdiction.schema.json",
+  "id": "haryana",
+  "name": "Haryana",
+  "legalDataVersion": "2026.08.4",
+  "status": "research",
+  "reviewedAt": "2026-08-27",
+  "staleAfter": "2027-02-27",
+  "portal": {
+    "url": "https://rtiharyana.gov.in/",
+    "coverage": "Departments and listed public authorities of the Government of Haryana; district/divisional requests may require selection of the related headquarters or directorate.",
+    "textLimit": 5000,
+    "attachment": { "formats": ["application/pdf"], "maxBytes": 20971520 }
+  },
+  "application": {
+    "fee": { "amountPaise": 1000, "currency": "INR" },
+    "bplExempt": true,
+    "bplEvidence": "Proof of below-poverty-line status is required to claim the exemption.",
+    "paymentModes": ["cash-receipt", "bank-draft", "indian-postal-order", "treasury-challan", "net-banking", "credit-card", "debit-card", "upi", "neft", "rtgs", "e-challan"],
+    "filingRoutes": ["online", "post", "in-person"],
+    "prescribedForm": false,
+    "identityEvidence": "Required with the address: Aadhaar, passport, voter card, PAN, Parivar Pehchan Patra ID, or another government-issued identity card. Model Form A is preferred.",
+    "sourceIds": ["HARYANA-RTI-RULES-2009", "HARYANA-RTI-AMEND-2016", "HARYANA-RTI-AMEND-2021", "HARYANA-RTI-IDENTITY-2024", "HARYANA-PORTAL-HOME", "HARYANA-PORTAL-MANUAL"]
+  },
+  "firstAppeal": {
+    "fee": { "amountPaise": 0, "currency": "INR" },
+    "bplExempt": null,
+    "bplEvidence": null,
+    "paymentModes": [],
+    "filingRoutes": ["online", "post", "in-person"],
+    "prescribedForm": false,
+    "identityEvidence": null,
+    "sourceIds": ["IN-RTI-ACT-CURRENT", "HARYANA-PORTAL-HOME", "HARYANA-PORTAL-MANUAL"]
+  },
+  "sources": ["IN-RTI-ACT-CURRENT", "HARYANA-RTI-RULES-2009", "HARYANA-RTI-AMEND-2016", "HARYANA-RTI-RULE10-2018", "HARYANA-RTI-AMEND-2021", "HARYANA-RTI-IDENTITY-2024", "HARYANA-PORTAL-HOME", "HARYANA-PORTAL-MANUAL"]
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "HARYANA-PORTAL-HOME",
+  "title": "Haryana RTI Online portal",
+  "issuer": "Government of Haryana",
+  "jurisdiction": "haryana",
+  "url": "https://rtiharyana.gov.in/",
+  "publishedOn": null,
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-27T19:06:52+05:30",
+  "contentType": "text/html",
+  "sizeBytes": null,
+  "sha256": null,
+  "provision": "Portal scope, payment methods and second-appeal limitation",
+  "excerpt": "The portal covers Haryana authorities, accepts applications and first appeals, lists six online payment routes, and currently directs second appeals to manual filing in triplicate.",
+  "status": "verified",
+  "notes": "Portal is desktop-oriented and gives special headquarters routing instructions for district/divisional information.",
+  "review": {
+    "technical": { "status": "approved", "reviewer": "Codex", "reviewedAt": "2026-08-27T19:06:52+05:30", "notes": "Current public portal instructions inspected." },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Operational behavior must be reviewed with the rules." }
+  }
+}

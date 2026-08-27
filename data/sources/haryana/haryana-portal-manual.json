@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "HARYANA-PORTAL-MANUAL",
+  "title": "Haryana RTI Online citizen manual",
+  "issuer": "Government of Haryana",
+  "jurisdiction": "haryana",
+  "url": "https://rtiharyana.gov.in/pdffiles/UserManualforCitizen.pdf",
+  "publishedOn": null,
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-27T19:06:52+05:30",
+  "contentType": "application/pdf",
+  "sizeBytes": 1484680,
+  "sha256": "a550948417321bf307199c73b5c5e3cea82555732f186f61a7afdc2c5607cbd1",
+  "provision": "Portal request and first-appeal constraints",
+  "excerpt": "The manual limits subject to 1,000 characters and description to 5,000 characters, accepts PDFs up to 20 MB, lists appeal evidence, and states that first appeal has no fee.",
+  "status": "verified",
+  "notes": "Captured as inert data, size-capped, signature checked, hashed and Defender-scanned. Demonstration applicant data is not reproduced in the repository.",
+  "review": {
+    "technical": { "status": "approved", "reviewer": "Codex", "reviewedAt": "2026-08-27T19:06:52+05:30", "notes": "Portal field, attachment and appeal constraints verified." },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Required before filing-ready activation." }
+  }
+}

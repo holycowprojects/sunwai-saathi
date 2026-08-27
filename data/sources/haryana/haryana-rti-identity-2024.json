@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "HARYANA-RTI-IDENTITY-2024",
+  "title": "Compliance with Haryana RTI identity-proof requirement",
+  "issuer": "General Administration Department, Government of Haryana",
+  "jurisdiction": "haryana",
+  "url": "https://csharyana.gov.in/WriteReadData/Circular-%26-Instructions/Administrative-Reforms/14492.pdf",
+  "publishedOn": "2024-05-20",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-27T19:06:52+05:30",
+  "contentType": "application/pdf",
+  "sizeBytes": 348706,
+  "sha256": "7cc8552323d50bfc7774f74327a23ce5cfd817ce44078df8190b0f0cd2dda815",
+  "provision": "Administrative compliance direction for the 2021 Model Form A",
+  "excerpt": "The circular states that the 2021 amendment requires identity proof and directs Haryana authorities to ensure compliance.",
+  "status": "verified",
+  "notes": "Official circular captured as inert data, size-capped, signature checked, hashed and Defender-scanned.",
+  "review": {
+    "technical": { "status": "approved", "reviewer": "Codex", "reviewedAt": "2026-08-27T19:06:52+05:30", "notes": "Enforcement direction verified." },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Review privacy-safe product guidance." }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "HARYANA-RTI-AMEND-2021",
+  "title": "Haryana Right to Information (Amendment) Rules, 2021",
+  "issuer": "Administrative Reforms Department, Government of Haryana",
+  "jurisdiction": "haryana",
+  "url": "https://csharyana.gov.in/WriteReadData/Rules/Administrative%20Reforms/11941.pdf",
+  "publishedOn": "2021-04-12",
+  "effectiveFrom": "2021-04-12",
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-27T19:06:52+05:30",
+  "contentType": "application/pdf",
+  "sizeBytes": 2753112,
+  "sha256": "3b71fe7545f6e3425b51e370fda01cdf47320df895d6c03ef91f95dc1aa3d81b",
+  "provision": "Replacement Model Form A",
+  "excerpt": "Replacement Model Form A requires the applicant's address together with Aadhaar, passport, voter card, PAN, PPP ID, or another government-issued identity card.",
+  "status": "verified",
+  "notes": "Official Gazette and forwarding record captured as inert data, size-capped, signature checked, hashed and Defender-scanned.",
+  "review": {
+    "technical": { "status": "approved", "reviewer": "Codex", "reviewedAt": "2026-08-27T19:06:52+05:30", "notes": "Identity-document field and accepted list verified." },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Required before filing-ready activation." }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "HARYANA-RTI-RULES-2009",
+  "title": "Haryana Right to Information Rules, 2009",
+  "issuer": "Administrative Reforms Department, Government of Haryana",
+  "jurisdiction": "haryana",
+  "url": "https://csharyana.gov.in/WriteReadData/Notifications%20%26%20Orders/Administrative%20Reforms/3813.pdf",
+  "publishedOn": "2009-12-21",
+  "effectiveFrom": "2010-01-01",
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-27T19:06:52+05:30",
+  "contentType": "application/pdf",
+  "sizeBytes": 2357605,
+  "sha256": "d94fd01a0c4444bb1775de4f3c742222a84a00b43fa90b859dea47e34c2c7616",
+  "provision": "Rules 3, 4 and 6; Model Forms A and B",
+  "excerpt": "The rules establish Haryana's request procedure, preferred Model Form A, fee-payment methods, additional-fee notice and manual second-appeal process.",
+  "status": "verified",
+  "notes": "Official scan captured as inert data, size-capped, PDF-signature checked, hashed and scanned with Microsoft Defender. Later amendments control changed provisions.",
+  "review": {
+    "technical": { "status": "approved", "reviewer": "Codex", "reviewedAt": "2026-08-27T19:06:52+05:30", "notes": "Base rules and amendment-sensitive provisions identified." },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Required before filing-ready activation." }
+  }
+}

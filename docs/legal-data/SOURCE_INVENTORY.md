@@ -67,11 +67,14 @@ When official sources conflict, appear stale, or mix repealed and current regime
 
 | ID | Source role | Official source | Preliminary finding | Status | Follow-up |
 |---|---|---|---|---|---|
-| `HARYANA-PORTAL-HOME` | Portal scope/payment | [Haryana RTI portal](https://rtiharyana.gov.in/) | Haryana authorities only; lists Net Banking, cards, UPI, NEFT, RTGS and e-Challan; reports desktop-oriented portal limitations | `verified` (technical) | Verify live covered authority list and current payment behavior |
-| `HARYANA-PORTAL-MANUAL` | First-appeal operation | [Haryana citizen manual](https://rtiharyana.gov.in/pdffiles/UserManualforCitizen.pdf) | Online first appeal, no stated fee, PDF supporting documents up to 20 MB | `unverified` | Hash document; reconcile with operative 2009 rules |
-| `HARYANA-RULES-2009` | Operative state rules | Referenced by official portal as Haryana Right to Information Rules, 2009 | Portal references Rule 6 for manual second appeals | `unverified` | Locate Gazette/official rules PDF; verify all fee/form/appeal provisions |
+| `HARYANA-RTI-RULES-2009` | Base state rules | [Chief Secretary Office — Haryana RTI Rules, 2009](https://csharyana.gov.in/WriteReadData/Notifications%20%26%20Orders/Administrative%20Reforms/3813.pdf) | Effective 1 Jan 2010; preferred Model Form A, payment procedure and manual second-appeal process | `verified` (technical) | Legal/RTI review with all amendments; hash recorded |
+| `HARYANA-RTI-AMEND-2016` | Fee and length amendment | [Haryana Gazette — 2016 amendment](https://csharyana.gov.in/WriteReadData/Notifications%20%26%20Orders/Administrative%20Reforms/5380.pdf) | Substituted Rule 5: ₹10 application fee, ordinary 500-word limit and no rejection solely for excess length | `verified` (technical) | Legal/RTI review; hash recorded |
+| `HARYANA-RTI-AMEND-2021` | Identity-form amendment | [Haryana Gazette — 2021 amendment](https://csharyana.gov.in/WriteReadData/Rules/Administrative%20Reforms/11941.pdf) | Replacement Model Form A requires one of six categories of government identity evidence | `verified` (technical) | Legal/RTI and privacy review; hash recorded |
+| `HARYANA-RTI-IDENTITY-2024` | Identity enforcement | [20 May 2024 compliance circular](https://csharyana.gov.in/WriteReadData/Circular-%26-Instructions/Administrative-Reforms/14492.pdf) | Directs Haryana authorities to comply with the 2021 identity-proof requirement | `verified` (technical) | Legal/RTI and privacy review; hash recorded |
+| `HARYANA-PORTAL-HOME` | Portal scope/payment | [Haryana RTI portal](https://rtiharyana.gov.in/) | Haryana authorities only; lists Net Banking, cards, UPI, NEFT, RTGS and e-Challan; reports desktop-oriented and headquarters-routing limitations | `verified` (technical) | Verify live authority list and payment behavior |
+| `HARYANA-PORTAL-MANUAL` | Request and first-appeal operation | [Haryana citizen manual](https://rtiharyana.gov.in/pdffiles/UserManualforCitizen.pdf) | Subject 1,000 characters; description 5,000; PDF up to 20 MB; no first-appeal fee; lists appeal evidence | `verified` (technical) | Legal/RTI review; hash recorded |
 
-**Profile state:** `unverified`; no fee value or filing-ready output until the operative rules are obtained.
+**Profile state:** `research`; operative rule chain and portal behavior are technically captured, including the identity-proof requirement, but filing-ready output remains blocked pending legal/RTI, privacy and authority review. See [Haryana research baseline](./HARYANA_RESEARCH_BASELINE.md).
 
 ## Maharashtra profile
 
