@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "DELHI-LEGACY-2001",
+  "title": "Delhi Right to Information Act and Rules, 2001",
+  "issuer": "Administrative Reforms Department, Government of NCT of Delhi",
+  "jurisdiction": "delhi",
+  "url": "https://ard.delhi.gov.in/rti/right-information-rules-2001",
+  "publishedOn": null,
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-27T18:59:09+05:30",
+  "contentType": "text/html",
+  "sizeBytes": null,
+  "sha256": null,
+  "provision": "Historical Delhi Act and fee rules",
+  "excerpt": "The official page retains the 2001 regime and its historical fee/form provisions, which conflict with the current RTI Act, 2005 portal workflow.",
+  "status": "disputed",
+  "notes": "Quarantined legacy source. It must never populate national-Act filing behavior unless a legal/RTI reviewer supplies a controlling applicability analysis.",
+  "review": {
+    "technical": { "status": "changes-requested", "reviewer": "Codex", "reviewedAt": "2026-08-27T18:59:09+05:30", "notes": "Current official publication lacks clear archival status and conflicts with current operational sources." },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Determine formal supersession or continuing legal relevance." }
+  }
+}

@@ -63,13 +63,13 @@
 
 ### Government of NCT of Delhi dossier
 
-- [ ] Verify Delhi’s separation from the Central RTI portal and identify official filing routes.
-- [ ] Verify application fee and BPL exemption/evidence requirements.
-- [ ] Verify payment methods, prescribed form, attachments, and text limits.
-- [ ] Verify first-appeal fee, form, filing route, and evidence requirements.
+- [x] Verify Delhi’s separation from the Central RTI portal and identify official filing routes in [DELHI_RESEARCH_BASELINE.md](./docs/legal-data/DELHI_RESEARCH_BASELINE.md).
+- [x] Verify application fee and BPL exemption/evidence requirements, pending legal/RTI approval of rule applicability.
+- [x] Verify payment methods, prescribed form, attachments, and text limits; record official conflicts.
+- [x] Verify first-appeal fee, form, filing route, and evidence requirements.
 - [ ] Record official authority/PIO/FAA directory sources.
 - [ ] Record source metadata, provisions, effective dates, and checksums.
-- [ ] Classify the Delhi profile as reviewed or non-filing-ready.
+- [x] Classify the Delhi profile as non-filing-ready (`research`) pending legal/RTI and authority review.
 
 ### Haryana dossier
 

@@ -56,12 +56,12 @@ When official sources conflict, appear stale, or mix repealed and current regime
 | ID | Source role | Official source | Preliminary finding | Status | Follow-up |
 |---|---|---|---|---|---|
 | `DELHI-PORTAL-HOME` | Portal scope | [GNCT Delhi RTI Online](https://rtionline.delhi.gov.in/) | GNCT Delhi authorities only; excludes Central and other state authorities; supports applications and first appeals | `verified` (technical) | Verify payment modes and covered authority list |
-| `DELHI-PORTAL-FAQ` | Appeal behavior | [GNCT Delhi portal FAQ](https://rtionline.delhi.gov.in/FAQ-RTI-DL-Eng.pdf) | Online first appeal uses original registration; FAQ says no first-appeal fee | `unverified` | Hash PDF; verify against operative Delhi rules |
-| `DELHI-PORTAL-MANUAL` | Portal workflow | [GNCT Delhi citizen manual](https://rtionline.delhi.gov.in/UMcitizen_Eng.pdf) | Manual states first appeal can follow 30-day lapse or request disposal | `unverified` | Hash PDF; verify exact timing wording against Act |
-| `DELHI-LEGACY-2001` | Legacy-law warning | [Delhi Administrative Reforms — Delhi RTI Rules 2001](https://ard.delhi.gov.in/rti/right-information-rules-2001) | Official site still publishes pre-national-Act Delhi law/rules | `superseded` pending legal confirmation | Must never populate 2005 Act workflow; document repeal/supersession authority |
-| `DELHI-FORMS-GUIDANCE` | Non-statutory forms | [District Magistrate South East RTI page](https://dmsoutheast.delhi.gov.in/rti/) | Official page says forms are guidance and applications may be on plain paper | `unverified` | Confirm whether this generalizes across GNCT Delhi authorities |
+| `DELHI-PORTAL-FAQ` | Fee, field and appeal behavior | [GNCT Delhi portal FAQ](https://rtionline.delhi.gov.in/FAQ-RTI-DL-Eng.pdf) | 3,000-character request field, PDF attachment, BPL proof, Net banking and no first-appeal fee | `verified` (technical) | Legal/RTI review; hash recorded in structured source data |
+| `DELHI-PORTAL-MANUAL` | Portal workflow | [GNCT Delhi citizen manual](https://rtionline.delhi.gov.in/UMcitizen_Eng.pdf) | Shows ₹10 fee, PDF attachment up to 1 MB and first appeal after 30 days or disposal; screenshot word-limit label conflicts with FAQ | `verified` (technical) | Use stricter FAQ character limit; legal/RTI review; hash recorded |
+| `DELHI-LEGACY-2001` | Legacy-law warning | [Delhi Administrative Reforms — Delhi RTI Rules 2001](https://ard.delhi.gov.in/rti/right-information-rules-2001) | Official site still publishes the 2001 regime and historical ₹25/₹50 values without a clear archival banner | `disputed` | Quarantine from 2005 Act workflow; document controlling applicability/supersession analysis |
+| `DELHI-FORMS-GUIDANCE` | Non-statutory forms | [District Magistrate South East RTI page](https://dmsoutheast.delhi.gov.in/rti/) | Forms are guidance and plain paper is accepted, but its Central-portal link conflicts with both portals' scope warnings | `verified` (technical, form status only) | Use Delhi portal for routing; confirm plain-paper position across GNCT authorities |
 
-**Profile state:** `disputed/unverified`; legacy Delhi material must be separated before activation.
+**Profile state:** `research`; legacy Delhi material is quarantined and the profile is non-filing-ready pending legal/RTI approval, authority coverage verification and resolution of official-site conflicts. See [Delhi research baseline](./DELHI_RESEARCH_BASELINE.md).
 
 ## Haryana profile
 

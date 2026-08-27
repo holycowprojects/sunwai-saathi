@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "DELHI-PORTAL-MANUAL",
+  "title": "Government of NCT Delhi RTI Online citizen manual",
+  "issuer": "Government of NCT of Delhi",
+  "jurisdiction": "delhi",
+  "url": "https://rtionline.delhi.gov.in/UMcitizen_Eng.pdf",
+  "publishedOn": null,
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-27T18:59:09+05:30",
+  "contentType": "application/pdf",
+  "sizeBytes": 3322720,
+  "sha256": "d74196657d4ab5e5aa950d2748e2c7299a9932cca0cbd9c800f8bef11b212316",
+  "provision": "Portal form, fee, attachment and first-appeal workflow",
+  "excerpt": "The manual shows a ten-rupee application fee, PDF supporting documents up to one megabyte, and online first appeal after 30 days or department disposal.",
+  "status": "verified",
+  "notes": "Downloaded as inert data, size-capped, signature checked, hashed and scanned with Microsoft Defender. Sample personal details in the manual are intentionally not reproduced in project data.",
+  "review": {
+    "technical": { "status": "approved", "reviewer": "Codex", "reviewedAt": "2026-08-27T18:59:09+05:30", "notes": "Relevant operational constraints inspected; FAQ character limit takes precedence over inconsistent screenshot wording." },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Portal behavior must be reviewed with the applicable rules." }
+  }
+}

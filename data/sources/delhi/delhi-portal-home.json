@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "DELHI-PORTAL-HOME",
+  "title": "Government of NCT Delhi RTI Online portal",
+  "issuer": "Government of NCT of Delhi",
+  "jurisdiction": "delhi",
+  "url": "https://rtionline.delhi.gov.in/",
+  "publishedOn": null,
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-27T18:59:09+05:30",
+  "contentType": "text/html",
+  "sizeBytes": null,
+  "sha256": null,
+  "provision": "Portal scope and payment route",
+  "excerpt": "The portal accepts applications and first appeals for GNCT Delhi public authorities, excludes Central and other State authorities, warns that misfiled requests may be returned without refund, and offers Internet banking.",
+  "status": "verified",
+  "notes": "Operational portal evidence. Covered-authority list and live payment behavior require periodic verification.",
+  "review": {
+    "technical": { "status": "approved", "reviewer": "Codex", "reviewedAt": "2026-08-27T18:59:09+05:30", "notes": "Current official portal scope inspected." },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Required before filing-ready activation." }
+  }
+}

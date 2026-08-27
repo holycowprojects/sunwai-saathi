@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/jurisdiction.schema.json",
+  "id": "delhi",
+  "name": "Government of NCT of Delhi",
+  "legalDataVersion": "2026.08.3",
+  "status": "research",
+  "reviewedAt": "2026-08-27",
+  "staleAfter": "2027-02-27",
+  "portal": {
+    "url": "https://rtionline.delhi.gov.in/",
+    "coverage": "Departments and listed public authorities of the Government of NCT of Delhi; excludes Central Government and other State Government authorities.",
+    "textLimit": 3000,
+    "attachment": { "formats": ["application/pdf"], "maxBytes": 1048576 }
+  },
+  "application": {
+    "fee": { "amountPaise": 1000, "currency": "INR" },
+    "bplExempt": true,
+    "bplEvidence": "Copy of a below-poverty-line certificate issued by the appropriate government.",
+    "paymentModes": ["cash-receipt", "demand-draft", "bankers-cheque", "indian-postal-order", "electronic-payment", "net-banking"],
+    "filingRoutes": ["online", "post", "in-person"],
+    "prescribedForm": false,
+    "identityEvidence": "No general identity-document requirement is encoded; BPL proof is required only when claiming the exemption.",
+    "sourceIds": ["IN-RTI-ACT-CURRENT", "CENTRAL-RTI-RULES-2012", "DELHI-PORTAL-HOME", "DELHI-PORTAL-FAQ", "DELHI-PORTAL-MANUAL", "DELHI-FORMS-GUIDANCE"]
+  },
+  "firstAppeal": {
+    "fee": { "amountPaise": 0, "currency": "INR" },
+    "bplExempt": null,
+    "bplEvidence": null,
+    "paymentModes": [],
+    "filingRoutes": ["online", "post", "in-person"],
+    "prescribedForm": false,
+    "identityEvidence": null,
+    "sourceIds": ["IN-RTI-ACT-CURRENT", "DELHI-PORTAL-FAQ", "DELHI-PORTAL-MANUAL", "DELHI-FORMS-GUIDANCE"]
+  },
+  "sources": ["IN-RTI-ACT-CURRENT", "CENTRAL-RTI-RULES-2012", "DELHI-PORTAL-HOME", "DELHI-PORTAL-FAQ", "DELHI-PORTAL-MANUAL", "DELHI-FORMS-GUIDANCE", "DELHI-LEGACY-2001"]
+}

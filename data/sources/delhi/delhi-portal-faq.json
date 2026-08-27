@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "DELHI-PORTAL-FAQ",
+  "title": "Government of NCT Delhi RTI Online frequently asked questions",
+  "issuer": "Government of NCT of Delhi",
+  "jurisdiction": "delhi",
+  "url": "https://rtionline.delhi.gov.in/FAQ-RTI-DL-Eng.pdf",
+  "publishedOn": null,
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-27T18:59:09+05:30",
+  "contentType": "application/pdf",
+  "sizeBytes": 312868,
+  "sha256": "672b5644afb7c31a5fefb893cb3441d977b24e75ec6114e90275f6355eef6a69",
+  "provision": "Portal request, fee and first-appeal instructions",
+  "excerpt": "The FAQ limits the request field to 3,000 characters, accepts a PDF supporting document, requires appropriate-government BPL proof for exemption, lists Net banking, and charges no first-appeal fee.",
+  "status": "verified",
+  "notes": "Downloaded as inert data from the official Delhi host, size-capped, PDF-signature checked, hashed and scanned with Microsoft Defender.",
+  "review": {
+    "technical": { "status": "approved", "reviewer": "Codex", "reviewedAt": "2026-08-27T18:59:09+05:30", "notes": "Relevant portal constraints inspected." },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Portal behavior must be reviewed with the applicable rules." }
+  }
+}

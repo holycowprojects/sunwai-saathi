@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "DELHI-FORMS-GUIDANCE",
+  "title": "District South East RTI forms guidance",
+  "issuer": "District South East, Government of NCT of Delhi",
+  "jurisdiction": "delhi",
+  "url": "https://dmsoutheast.delhi.gov.in/rti/",
+  "publishedOn": null,
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-27T18:59:09+05:30",
+  "contentType": "text/html",
+  "sizeBytes": null,
+  "sha256": null,
+  "provision": "Application and first-appeal format guidance",
+  "excerpt": "The page states that its application and appeal forms are non-statutory guidance and that citizens may file on plain paper.",
+  "status": "verified",
+  "notes": "Its link to the Central portal conflicts with both portals' scope warnings and must not control routing.",
+  "review": {
+    "technical": { "status": "approved", "reviewer": "Codex", "reviewedAt": "2026-08-27T18:59:09+05:30", "notes": "Form-status statement and routing conflict recorded." },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Confirm whether the plain-paper position generalises across GNCT Delhi authorities." }
+  }
+}
