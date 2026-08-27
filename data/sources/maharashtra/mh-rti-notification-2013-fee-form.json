@@ -6,18 +6,18 @@
   "jurisdiction": "maharashtra",
   "url": "https://rti.maharashtra.gov.in/downloadcircular.action?fname=Notification%2Bregarding%2Bthe%2Bapplication%2Bfee%2Bapplication%2Bform%2Bdated%2B23-04-2013.pdf",
   "publishedOn": "2013-04-23",
-  "effectiveFrom": null,
+  "effectiveFrom": "2013-05-09",
   "effectiveTo": null,
   "retrievedAt": "2026-08-27T17:48:59+05:30",
   "contentType": "application/pdf",
   "sizeBytes": 25468,
   "sha256": "143bc0fb775cfc1290db822aeaf4388a4032a42fb0e2d3daf9d3f4ae670fead6",
-  "provision": null,
-  "excerpt": null,
-  "status": "unverified",
-  "notes": "Image-based Marathi scan. It must not control product behavior until an accessible Gazette text or independent two-person transcription is reviewed.",
+  "provision": "Amendments to Rules 3, 4 and 5",
+  "excerpt": "The amendment adds Indian Postal Order after demand draft as a permitted payment method for applications, information charges, first appeals and second appeals; it also revises inspection timing and adds actual sample/model cost.",
+  "status": "verified",
+  "notes": "Notification dated 23 April 2013 in Maharashtra Gazette Part IV-A for 9–15 May 2013. The image-based Marathi scan was extracted without executing the PDF and visually transcribed. Independent Marathi and legal/RTI review remain required before filing-ready activation.",
   "review": {
-    "technical": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "File origin and checksum captured; operative text not yet verified." },
+    "technical": { "status": "approved", "reviewer": "Codex", "reviewedAt": "2026-08-27T21:05:00+05:30", "notes": "Official scan, amendment targets and Indian Postal Order insertions visually verified." },
     "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Required before reliance." }
   }
 }

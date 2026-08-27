@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "MH-RTI-SECOND-AMEND-2012-INSPECTION",
+  "title": "Maharashtra Right to Information (Second Amendment) Rules, 2012",
+  "issuer": "Government of Maharashtra, General Administration Department",
+  "jurisdiction": "maharashtra",
+  "url": "https://elibrary.mahadiscom.in/data/hrl/oebooks/AdmCircular-II.pdf",
+  "publishedOn": "2012-02-02",
+  "effectiveFrom": "2012-02-02",
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-27T21:05:00+05:30",
+  "contentType": "application/pdf",
+  "sizeBytes": 4011481,
+  "sha256": "c9b81cf4c3a39a166e37ae68204272097bcdb4d8bceb3df680c5b0ce25de554a",
+  "provision": "Rule 3B",
+  "excerpt": "The amendment establishes a supervised record-inspection procedure, including use of pencil only and no marking of records.",
+  "status": "verified",
+  "notes": "Notification dated 31 January 2012, reproduced from Maharashtra Gazette Extraordinary Part IV-A dated 2 February 2012 in an official MSEDCL compilation. Captured as inert data, size-capped, PDF-signature checked, hashed and Defender-scanned. Inspection drafting is outside the current focused-record-copy default.",
+  "review": {
+    "technical": { "status": "approved", "reviewer": "Codex", "reviewedAt": "2026-08-27T21:05:00+05:30", "notes": "Notification identity and Rule 3B text verified in the official compilation." },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Required before inspection guidance or filing-ready activation." }
+  }
+}

@@ -16,21 +16,21 @@
     "fee": { "amountPaise": 1000, "currency": "INR" },
     "bplExempt": true,
     "bplEvidence": "Proof of below-poverty-line status is required to claim the fee exemption.",
-    "paymentModes": ["cash-receipt", "demand-draft", "bankers-cheque", "court-fee-stamp", "net-banking", "credit-card", "debit-card"],
+    "paymentModes": ["cash-receipt", "demand-draft", "indian-postal-order", "bankers-cheque", "court-fee-stamp", "net-banking", "credit-card", "debit-card"],
     "filingRoutes": ["online", "post", "in-person"],
     "prescribedForm": true,
     "identityEvidence": "No general photo-ID requirement is encoded in the v1 pre-June-2026 baseline.",
-    "sourceIds": ["MH-RTI-RULES-2005", "MH-RTI-AMEND-2012-SINGLE-SUBJECT", "MH-RTI-FORMAT", "MH-PORTAL-HOME", "MH-PORTAL-FAQ", "MH-PORTAL-MANUAL"]
+    "sourceIds": ["MH-RTI-RULES-2005", "MH-RTI-AMEND-2012-SINGLE-SUBJECT", "MH-RTI-SECOND-AMEND-2012-INSPECTION", "MH-RTI-NOTIFICATION-2013-FEE-FORM", "MH-RTI-FORMAT", "MH-PORTAL-HOME", "MH-PORTAL-FAQ", "MH-PORTAL-MANUAL"]
   },
   "firstAppeal": {
     "fee": { "amountPaise": 2000, "currency": "INR" },
     "bplExempt": null,
     "bplEvidence": null,
-    "paymentModes": ["court-fee-stamp", "net-banking", "credit-card", "debit-card"],
+    "paymentModes": ["cash-receipt", "demand-draft", "indian-postal-order", "bankers-cheque", "court-fee-stamp", "net-banking", "credit-card", "debit-card"],
     "filingRoutes": ["online", "post", "in-person"],
     "prescribedForm": true,
     "identityEvidence": null,
-    "sourceIds": ["MH-RTI-FORMAT", "MH-PORTAL-FAQ", "MH-PORTAL-MANUAL"]
+    "sourceIds": ["MH-RTI-NOTIFICATION-2013-FEE-FORM", "MH-RTI-FORMAT", "MH-PORTAL-FAQ", "MH-PORTAL-MANUAL"]
   },
-  "sources": ["MH-RTI-RULES-2005", "MH-RTI-AMEND-2012-SINGLE-SUBJECT", "MH-RTI-NOTIFICATION-2013-FEE-FORM", "MH-RTI-FORMAT", "MH-PORTAL-HOME", "MH-PORTAL-FAQ", "MH-PORTAL-MANUAL"]
+  "sources": ["MH-RTI-RULES-2005", "MH-RTI-AMEND-2012-SINGLE-SUBJECT", "MH-RTI-SECOND-AMEND-2012-INSPECTION", "MH-RTI-NOTIFICATION-2013-FEE-FORM", "MH-RTI-FORMAT", "MH-PORTAL-HOME", "MH-PORTAL-FAQ", "MH-PORTAL-MANUAL"]
 }
