@@ -166,3 +166,30 @@ Required follow-up:
 4. create a safe unsupported exit when the record-owning office cannot be established;
 5. add privacy tests for UAN, Aadhaar, claim and credential fields; and
 6. obtain technical and legal/RTI directory approval.
+
+## Candidate review 5 — Ministry of Railways (Railway Board)
+
+**Weighted research score:** `47.5/100`
+
+**Decision:** `research`; ministry-wide grievance volume does not prove Railway Board record custody
+
+| Dimension | Score | Finding |
+|---|---:|---|
+| Population served | 4/4 | Railway Board leads a nationwide system with 17 zonal railways and extensive passenger-facing infrastructure |
+| Grievance relevance | 2/4 | The ministry ranks fourth for Central grievances, but receipts are not attributed specifically to Railway Board |
+| Source completeness | 1/4 | Board identity and the decentralized structure are clear; a current complete Board CPIO/FAA directory was not verified |
+| Filing accessibility | 1/4 | Central filing exists, but the exact label and record-owning Board/zone/division/unit remain unresolved |
+| Maintainability | 1/4 | RTI directories are fragmented across zones, divisions, departments and units and commonly contain changing incumbents |
+
+Railway Board is not a safe default destination for an unresolved railway grievance. The official annual structure separates 17 zonal railways, production units, other units and corporations or autonomous bodies. Official railway RTI material likewise depicts separate divisional, zonal and Board appeal chains. A current Northeast Frontier Railway directory further demonstrates department-specific CPIO/FAA routing inside one zone; it cannot be reused for another zone or the Board.
+
+The official CPGRAMS rank applies to the Ministry of Railways domain. SunwaiSaathi must not convert that ministry-wide count into a claim about Railway Board grievance relevance. The candidate fails the score threshold and the PIO, FAA, address, filing-route and freshness gates; the organization chart is dated 1 January 2025.
+
+Required follow-up:
+
+1. define whether the MVP can represent nested Board, zone, division, department and unit boundaries;
+2. locate a current Railway Board designation-based CPIO/FAA directory and service address;
+3. verify exact Central RTI Online labels for the Board and any separately covered railway authorities;
+4. define safe subject-and-geography routing and mandatory user confirmation;
+5. keep corporations and autonomous bodies outside Railway Board routing; and
+6. obtain technical and legal/RTI directory approval before reconsideration.

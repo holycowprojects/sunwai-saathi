@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "CENTRAL-RAILWAYS-ANNUAL-2023-24",
+  "title": "Indian Railways Annual Report and Accounts 2023-24",
+  "issuer": "Ministry of Railways (Railway Board), Government of India",
+  "jurisdiction": "central",
+  "url": "https://indianrailways.gov.in/railwayboard/uploads/directorate/stat_econ/2025/Indian%20Railways%20Annual%20Report%20%20Accounts%202023-24%20-English.pdf",
+  "publishedOn": null,
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-30T15:43:33+05:30",
+  "contentType": "application/pdf",
+  "sizeBytes": null,
+  "sha256": null,
+  "provision": "Organization structure as on 1 January 2025 and national operational reach",
+  "excerpt": "The official report separates Railway Board from 17 zonal railways, production units, other units, and corporations or autonomous bodies, and reports nationwide passenger-facing infrastructure.",
+  "status": "verified",
+  "notes": "Verified as authority-boundary and population-reach evidence only. It does not map a grievance to the record-owning public authority or provide current CPIO/FAA details. The PDF was inspected through the web index and was not downloaded or committed.",
+  "review": {
+    "technical": {
+      "status": "approved",
+      "reviewer": "Codex technical research",
+      "reviewedAt": "2026-08-30T15:43:33+05:30",
+      "notes": "Organization chart, 17-zone separation and national reach checked."
+    },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Public-authority and record-custody boundaries require review." }
+  }
+}

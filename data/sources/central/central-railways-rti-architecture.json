@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "CENTRAL-RAILWAYS-RTI-ARCHITECTURE",
+  "title": "Indian Railways zonal RTI architecture",
+  "issuer": "South East Central Railway, Ministry of Railways, Government of India",
+  "jurisdiction": "central",
+  "url": "https://secr.indianrailways.gov.in/uploads/files/1738839104318-rti_05022025.pdf",
+  "publishedOn": null,
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-30T15:43:33+05:30",
+  "contentType": "application/pdf",
+  "sizeBytes": null,
+  "sha256": null,
+  "provision": "Separate divisional, zonal and Railway Board RTI chains",
+  "excerpt": "The official indexed training material depicts separate RTI paths for divisions, the zonal public authority and Railway Board, each with its own first-appeal chain.",
+  "status": "verified",
+  "notes": "Structural evidence only. The source is not a current Railway Board directory and cannot activate an address or designation. The file was not downloaded or committed.",
+  "review": {
+    "technical": {
+      "status": "approved",
+      "reviewer": "Codex technical research",
+      "reviewedAt": "2026-08-30T15:43:33+05:30",
+      "notes": "The separate division, zone and Board RTI paths were checked from the official indexed material."
+    },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Routing implications require legal/RTI review." }
+  }
+}

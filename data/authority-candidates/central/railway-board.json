@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/authority-candidate.schema.json",
+  "id": "central-railway-board",
+  "jurisdiction": "central",
+  "authorityName": "Ministry of Railways (Railway Board)",
+  "selectionBasis": "official-statistics",
+  "asOfDate": "2026-08-30",
+  "scores": {
+    "populationServed": { "value": 4, "rationale": "Railway Board leads a nationwide railway system with extensive passenger-facing infrastructure and 17 zonal railways.", "sourceIds": ["CENTRAL-RAILWAYS-ANNUAL-2023-24"] },
+    "grievanceRelevance": { "value": 2, "rationale": "The ministry is fourth in the official Central grievance table, but the evidence does not attribute those receipts to Railway Board rather than a zone, division, production unit or separate body.", "sourceIds": ["CENTRAL-CPGRAMS-AUG-2025", "CENTRAL-RAILWAYS-ANNUAL-2023-24", "CENTRAL-RAILWAYS-RTI-ARCHITECTURE"] },
+    "sourceCompleteness": { "value": 1, "rationale": "Official structure and decentralized RTI evidence establish the Board's identity, but no current complete designation-based Railway Board CPIO/FAA and service-address mapping was verified.", "sourceIds": ["CENTRAL-RAILWAYS-ANNUAL-2023-24", "CENTRAL-RAILWAYS-RTI-ARCHITECTURE", "CENTRAL-RAILWAYS-NFR-DIRECTORY-2025"] },
+    "filingAccessibility": { "value": 1, "rationale": "A general Central filing route exists, but the exact portal label and whether the records belong to Railway Board, a zone, a division or another unit remain unresolved.", "sourceIds": ["CENTRAL-PORTAL-HOME", "CENTRAL-RAILWAYS-RTI-ARCHITECTURE"] },
+    "maintainability": { "value": 1, "rationale": "Directory evidence is fragmented across Board, zone, division, department and unit pages and commonly includes changing incumbent details.", "sourceIds": ["CENTRAL-RAILWAYS-RTI-ARCHITECTURE", "CENTRAL-RAILWAYS-NFR-DIRECTORY-2025"] }
+  },
+  "weightedTotal": 47.5,
+  "evidenceSourceIds": ["CENTRAL-CPGRAMS-AUG-2025", "CENTRAL-PORTAL-HOME", "CENTRAL-RAILWAYS-ANNUAL-2023-24", "CENTRAL-RAILWAYS-RTI-ARCHITECTURE", "CENTRAL-RAILWAYS-NFR-DIRECTORY-2025"],
+  "verificationGates": {
+    "officialAuthorityEvidence": true,
+    "pioOfficeEvidence": false,
+    "faaOfficeEvidence": false,
+    "serviceAddressEvidence": false,
+    "filingRouteEvidence": false,
+    "currentWithinReviewWindow": false
+  },
+  "decision": "research",
+  "notes": "Ministry-wide grievance volume cannot be assigned to Railway Board. Do not route passenger, ticketing, station, train, parcel, freight, recruitment, pension or project grievances to the Board without verified record custody. A nested authority model may be required. Never copy incumbent names or personal contact details from zonal directories into production data."
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "CENTRAL-RAILWAYS-NFR-DIRECTORY-2025",
+  "title": "Northeast Frontier Railway updated Nodal RTI Cell directory",
+  "issuer": "Northeast Frontier Railway, Ministry of Railways, Government of India",
+  "jurisdiction": "central",
+  "url": "https://nfr.indianrailways.gov.in/uploads/files/1750227194865-FC.pdf",
+  "publishedOn": null,
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-30T15:43:33+05:30",
+  "contentType": "application/pdf",
+  "sizeBytes": null,
+  "sha256": null,
+  "provision": "Zone- and department-specific CPIO/FAA directory",
+  "excerpt": "The current official five-page directory maps separate CPIO and FAA offices by department within Northeast Frontier Railway Headquarters.",
+  "status": "verified",
+  "notes": "Used only to prove decentralized, department-specific routing. It does not establish Railway Board addressees or another zone's directory. Personal names and contact details from the source were deliberately not copied. No file was downloaded or committed.",
+  "review": {
+    "technical": {
+      "status": "approved",
+      "reviewer": "Codex technical research",
+      "reviewedAt": "2026-08-30T15:43:33+05:30",
+      "notes": "Five-page directory structure and departmental mapping checked without capturing incumbents or contact data."
+    },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": null }
+  }
+}
