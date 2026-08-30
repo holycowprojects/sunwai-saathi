@@ -108,13 +108,13 @@
 ### Legal-data design
 
 - [x] Define the initial [source-provenance schema](./data/schemas/source.schema.json).
-- [ ] Define the legal-rule schema with effective and review dates.
+- [x] Define the [legal-rule schema](./data/schemas/legal-rule.schema.json) with effective and review dates.
 - [x] Define the initial independent [jurisdiction profile schema](./data/schemas/jurisdiction.schema.json).
-- [ ] Define authority/PIO/FAA office-and-designation schema without personal officer names.
-- [ ] Define reviewed, stale, unsupported, and filing-ready state semantics.
-- [ ] Define separate application and legal-data version formats.
-- [ ] Validate schemas against all five jurisdiction dossiers.
-- [ ] Define monthly source-health and checksum-change outputs.
+- [x] Define the [authority/PIO/FAA office-and-designation schema](./data/schemas/authority.schema.json) without personal officer names.
+- [x] Define reviewed, stale, unsupported, and filing-ready state semantics in the [legal-data model](./docs/legal-data/DATA_MODEL.md).
+- [x] Define separate application and legal-data version formats in the [legal-data model](./docs/legal-data/DATA_MODEL.md).
+- [x] Validate the initial schema design against all five jurisdiction dossiers and record the scope and remaining executable-validation gate in the [legal-data model](./docs/legal-data/DATA_MODEL.md).
+- [x] Define monthly source-health and checksum-change outputs in the [report schema](./data/schemas/source-health-report.schema.json) and [legal-data model](./docs/legal-data/DATA_MODEL.md).
 
 ### Authority selection
 

@@ -32,5 +32,11 @@
     "identityEvidence": null,
     "sourceIds": ["MH-RTI-NOTIFICATION-2013-FEE-FORM", "MH-RTI-FORMAT", "MH-PORTAL-FAQ", "MH-PORTAL-MANUAL"]
   },
-  "sources": ["MH-RTI-RULES-2005", "MH-RTI-AMEND-2012-SINGLE-SUBJECT", "MH-RTI-SECOND-AMEND-2012-INSPECTION", "MH-RTI-NOTIFICATION-2013-FEE-FORM", "MH-RTI-FORMAT", "MH-PORTAL-HOME", "MH-PORTAL-FAQ", "MH-PORTAL-MANUAL"]
+  "sources": ["MH-RTI-RULES-2005", "MH-RTI-AMEND-2012-SINGLE-SUBJECT", "MH-RTI-SECOND-AMEND-2012-INSPECTION", "MH-RTI-NOTIFICATION-2013-FEE-FORM", "MH-RTI-FORMAT", "MH-PORTAL-HOME", "MH-PORTAL-FAQ", "MH-PORTAL-MANUAL"],
+  "review": {
+    "technical": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Pre-June-2026 chain is technically assembled; independent review remains required." },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": null },
+    "authorityDirectory": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": null },
+    "language": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Independent Marathi review is required for the v1 baseline." }
+  }
 }

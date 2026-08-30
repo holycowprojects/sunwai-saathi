@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sunwai-saathi.org/schemas/legal-rule.schema.json",
+  "title": "SunwaiSaathi Legal Rule",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "jurisdiction",
+    "topic",
+    "value",
+    "effectiveFrom",
+    "reviewedAt",
+    "staleAfter",
+    "state",
+    "sourceIds",
+    "review"
+  ],
+  "properties": {
+    "$schema": { "type": "string" },
+    "id": { "type": "string", "pattern": "^[A-Z0-9][A-Z0-9-]+$" },
+    "jurisdiction": {
+      "enum": ["india", "central", "delhi", "haryana", "maharashtra", "goa"]
+    },
+    "topic": {
+      "enum": [
+        "application-fee",
+        "bpl-exemption",
+        "payment-mode",
+        "filing-route",
+        "prescribed-form",
+        "identity-evidence",
+        "request-limit",
+        "attachment",
+        "response-deadline",
+        "first-appeal-deadline",
+        "first-appeal-disposal",
+        "officer-information-caveat",
+        "other"
+      ]
+    },
+    "value": {
+      "description": "Deterministic JSON value consumed only after the rule becomes filing-ready.",
+      "type": ["string", "number", "integer", "boolean", "object", "array", "null"]
+    },
+    "provision": { "type": ["string", "null"] },
+    "effectiveFrom": { "type": "string", "format": "date" },
+    "effectiveTo": { "type": ["string", "null"], "format": "date" },
+    "reviewedAt": { "type": ["string", "null"], "format": "date" },
+    "staleAfter": { "type": ["string", "null"], "format": "date" },
+    "state": {
+      "enum": ["research", "technical-reviewed", "filing-ready", "stale", "unsupported", "disabled"]
+    },
+    "sourceIds": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^[A-Z0-9][A-Z0-9-]+$" }
+    },
+    "notes": { "type": ["string", "null"] },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["technical", "legalRti"],
+      "properties": {
+        "technical": { "$ref": "source.schema.json#/$defs/reviewDecision" },
+        "legalRti": { "$ref": "source.schema.json#/$defs/reviewDecision" },
+        "language": { "$ref": "source.schema.json#/$defs/reviewDecision" }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "state": { "const": "filing-ready" } }, "required": ["state"] },
+      "then": {
+        "properties": {
+          "reviewedAt": { "type": "string", "format": "date" },
+          "staleAfter": { "type": "string", "format": "date" },
+          "review": {
+            "properties": {
+              "technical": { "properties": { "status": { "const": "approved" } } },
+              "legalRti": { "properties": { "status": { "const": "approved" } } }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

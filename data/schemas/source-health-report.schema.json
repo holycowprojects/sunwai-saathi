@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sunwai-saathi.org/schemas/source-health-report.schema.json",
+  "title": "SunwaiSaathi Source Health Report",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "runId", "checkedAt", "records"],
+  "properties": {
+    "schemaVersion": { "const": "1.0.0" },
+    "runId": { "type": "string", "pattern": "^[0-9]{8}T[0-9]{6}Z$" },
+    "checkedAt": { "type": "string", "format": "date-time" },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["sourceId", "urlHealth", "checksumState", "reviewRequired"],
+        "properties": {
+          "sourceId": { "type": "string", "pattern": "^[A-Z0-9][A-Z0-9-]+$" },
+          "checkedUrl": { "type": "string", "format": "uri", "pattern": "^https://" },
+          "resolvedUrl": { "type": ["string", "null"], "format": "uri" },
+          "httpStatus": { "type": ["integer", "null"], "minimum": 100, "maximum": 599 },
+          "contentType": { "type": ["string", "null"] },
+          "sizeBytes": { "type": ["integer", "null"], "minimum": 0 },
+          "observedSha256": { "type": ["string", "null"], "pattern": "^[a-f0-9]{64}$" },
+          "urlHealth": { "enum": ["healthy", "redirected", "broken", "unchecked"] },
+          "checksumState": { "enum": ["unchanged", "changed", "missing-baseline", "not-applicable", "unchecked"] },
+          "reviewRequired": { "type": "boolean" },
+          "notes": { "type": ["string", "null"] }
+        }
+      }
+    }
+  }
+}

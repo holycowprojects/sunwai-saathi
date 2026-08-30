@@ -32,5 +32,10 @@
     "identityEvidence": null,
     "sourceIds": ["IN-RTI-ACT-CURRENT", "HARYANA-PORTAL-HOME", "HARYANA-PORTAL-MANUAL"]
   },
-  "sources": ["IN-RTI-ACT-CURRENT", "HARYANA-RTI-RULES-2009", "HARYANA-RTI-AMEND-2016", "HARYANA-RTI-RULE10-2018", "HARYANA-RTI-AMEND-2021", "HARYANA-RTI-IDENTITY-2024", "HARYANA-PORTAL-HOME", "HARYANA-PORTAL-MANUAL"]
+  "sources": ["IN-RTI-ACT-CURRENT", "HARYANA-RTI-RULES-2009", "HARYANA-RTI-AMEND-2016", "HARYANA-RTI-RULE10-2018", "HARYANA-RTI-AMEND-2021", "HARYANA-RTI-IDENTITY-2024", "HARYANA-PORTAL-HOME", "HARYANA-PORTAL-MANUAL"],
+  "review": {
+    "technical": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Identity-proof privacy review remains open." },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": null },
+    "authorityDirectory": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": null }
+  }
 }

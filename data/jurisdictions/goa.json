@@ -32,5 +32,10 @@
     "identityEvidence": null,
     "sourceIds": ["IN-RTI-ACT-CURRENT", "GOA-PORTAL-HOME", "GOA-PORTAL-FAQ"]
   },
-  "sources": ["IN-RTI-ACT-CURRENT", "GOA-RTI-RULES-CONSOLIDATED", "GOA-RTI-AMEND-2007", "GOA-RTI-AMEND-2008", "GOA-PORTAL-HOME", "GOA-PORTAL-FAQ", "GOA-PORTAL-MANUAL"]
+  "sources": ["IN-RTI-ACT-CURRENT", "GOA-RTI-RULES-CONSOLIDATED", "GOA-RTI-AMEND-2007", "GOA-RTI-AMEND-2008", "GOA-PORTAL-HOME", "GOA-PORTAL-FAQ", "GOA-PORTAL-MANUAL"],
+  "review": {
+    "technical": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Offline appeal details and attachment limit remain open." },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": null },
+    "authorityDirectory": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": null }
+  }
 }

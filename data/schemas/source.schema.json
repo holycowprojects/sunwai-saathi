@@ -15,6 +15,7 @@
     "review"
   ],
   "properties": {
+    "$schema": { "type": "string" },
     "id": { "type": "string", "pattern": "^[A-Z0-9][A-Z0-9-]+$" },
     "title": { "type": "string", "minLength": 1 },
     "issuer": { "type": "string", "minLength": 1 },

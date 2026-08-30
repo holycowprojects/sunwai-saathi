@@ -32,5 +32,10 @@
     "identityEvidence": null,
     "sourceIds": ["IN-RTI-ACT-CURRENT", "DELHI-PORTAL-FAQ", "DELHI-PORTAL-MANUAL", "DELHI-FORMS-GUIDANCE"]
   },
-  "sources": ["IN-RTI-ACT-CURRENT", "CENTRAL-RTI-RULES-2012", "DELHI-PORTAL-HOME", "DELHI-PORTAL-FAQ", "DELHI-PORTAL-MANUAL", "DELHI-FORMS-GUIDANCE", "DELHI-LEGACY-2001"]
+  "sources": ["IN-RTI-ACT-CURRENT", "CENTRAL-RTI-RULES-2012", "DELHI-PORTAL-HOME", "DELHI-PORTAL-FAQ", "DELHI-PORTAL-MANUAL", "DELHI-FORMS-GUIDANCE", "DELHI-LEGACY-2001"],
+  "review": {
+    "technical": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Official-source conflicts remain documented." },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": null },
+    "authorityDirectory": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": null }
+  }
 }
