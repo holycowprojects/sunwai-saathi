@@ -2,6 +2,8 @@
 
 **Status:** Draft for Milestone 1 review
 
+**Detailed timing and appeal contract:** [DEADLINES_AND_FIRST_APPEALS.md](./DEADLINES_AND_FIRST_APPEALS.md)
+
 | Scenario | MVP status | Product behavior |
 |---|---|---|
 | Existing grievance; standard RTI request for records; supported authority and verified jurisdiction data | Supported | Filing-ready draft and submission pack |
@@ -14,7 +16,7 @@
 | Life-or-liberty request | Unsupported in MVP | Explain exceptional 48-hour path and recommend independent assistance |
 | APIO filing, Section 6(3) transfer, third-party consultation, exempt organization or additional-fee timing | Unsupported timing | Do not calculate a filing-ready deadline |
 | Standard date based on confirmed PIO/public-authority receipt | Supported | Label deadline confirmed |
-| Only submission date known | Supported with limitation | Label deadline estimated and explain basis |
+| Only submission date known and no exceptional timing branch applies | Supported with limitation | Use the user-confirmed submission date as a proxy; label the target estimated and explain that receipt may be later |
 | Officer identity/designation request | Optional | Separate unchecked reviewed clause and amended Section 8(1)(j) caveat |
 | No PIO response after standard period | First appeal supported | Use reviewed no-response module |
 | Incomplete response | First appeal supported | Use reviewed incomplete-information module |
@@ -24,6 +26,6 @@
 | Other first-appeal issue | Bounded support | User selects reviewed modular grounds; no open-ended AI legal argument |
 | Second appeal | Unsupported | Provide limitation only; do not draft or estimate disposal time |
 | Address or FAA not verified | Not filing-ready | Generate generic content and direct user to official directory |
-| Legal data over six months since review | Supported with warning | Require acknowledgement and stamp review/version details |
+| Legal data reaches its `staleAfter` date | Draft only until review | Block new filing-ready export; preserve generic drafting with a stale-data warning |
 | Newer legal dataset available to installed PWA | Draft only until update | Block new filing-ready export until data refresh |
 | Device cannot perform OCR/local AI | Supported fallback | Manual deterministic form remains available |

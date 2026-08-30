@@ -131,9 +131,9 @@
 ### Safety, review, and traceability
 
 - [x] Create the [supported/unsupported scenario matrix](./docs/product/SUPPORTED_CASES.md).
-- [ ] Define standard 30-day confirmed-versus-estimated deadline behavior.
-- [ ] Document exceptional deadline cases as detected but unsupported.
-- [ ] Define the six first-appeal outcome categories and required official inputs.
+- [x] Define standard 30-day confirmed-versus-estimated behavior in the [deadline and first-appeal contract](./docs/product/DEADLINES_AND_FIRST_APPEALS.md).
+- [x] Document exceptional deadline cases as detected but unsupported in the [deadline and first-appeal contract](./docs/product/DEADLINES_AND_FIRST_APPEALS.md).
+- [x] Define the six first-appeal outcome categories and required official inputs in the [deadline and first-appeal contract](./docs/product/DEADLINES_AND_FIRST_APPEALS.md).
 - [x] Create the [legal/RTI reviewer checklist](./docs/legal-data/REVIEW_CHECKLIST.md).
 - [ ] Identify and confirm a volunteer legal/RTI reviewer.
 - [ ] Identify and confirm a proficient Hindi reviewer.
