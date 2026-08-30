@@ -1,0 +1,47 @@
+{
+  "$schema": "../../schemas/authority-candidate.schema.json",
+  "id": "central-department-of-posts",
+  "jurisdiction": "central",
+  "authorityName": "Department of Posts",
+  "selectionBasis": "official-statistics",
+  "asOfDate": "2026-08-30",
+  "scores": {
+    "populationServed": {
+      "value": 4,
+      "rationale": "The official structure spans postal circles across India and the department provides nationwide citizen services.",
+      "sourceIds": ["CENTRAL-INDIA-POST-STRUCTURE"]
+    },
+    "grievanceRelevance": {
+      "value": 4,
+      "rationale": "DARPG ranked the Department of Posts fifth with 45,506 grievance receipts from January through August 2025.",
+      "sourceIds": ["CENTRAL-CPGRAMS-AUG-2025"]
+    },
+    "sourceCompleteness": {
+      "value": 1,
+      "rationale": "Official authority and structural evidence exists, but a complete current designation-based PIO/FAA directory and service-address mapping was not verified.",
+      "sourceIds": ["CENTRAL-CPIO-DIRECTORY", "CENTRAL-INDIA-POST-STRUCTURE"]
+    },
+    "filingAccessibility": {
+      "value": 2,
+      "rationale": "Central online and offline mechanisms exist, but the correct postal unit, circle or functional authority cannot yet be resolved deterministically for a citizen grievance.",
+      "sourceIds": ["CENTRAL-PORTAL-HOME", "CENTRAL-CPIO-DIRECTORY", "CENTRAL-INDIA-POST-STRUCTURE"]
+    },
+    "maintainability": {
+      "value": 1,
+      "rationale": "Directory evidence is fragmented across geographic and functional units, and previously indexed CPIO/FAA pages were unavailable during the current check.",
+      "sourceIds": ["CENTRAL-CPIO-DIRECTORY", "CENTRAL-INDIA-POST-STRUCTURE"]
+    }
+  },
+  "weightedTotal": 66.25,
+  "evidenceSourceIds": ["CENTRAL-CPGRAMS-AUG-2025", "CENTRAL-CPIO-DIRECTORY", "CENTRAL-INDIA-POST-STRUCTURE", "CENTRAL-PORTAL-HOME"],
+  "verificationGates": {
+    "officialAuthorityEvidence": true,
+    "pioOfficeEvidence": false,
+    "faaOfficeEvidence": false,
+    "serviceAddressEvidence": false,
+    "filingRouteEvidence": false,
+    "currentWithinReviewWindow": false
+  },
+  "decision": "research",
+  "notes": "High-value domain but not selectable. Resolve circle/division/subject routing and locate a current maintainable designation-based PIO/FAA directory before rescoring. Do not copy personal names or contact details from stale indexed pages."
+}

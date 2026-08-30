@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "CENTRAL-INDIA-POST-STRUCTURE",
+  "title": "India Post — Structure of All Circles",
+  "issuer": "Department of Posts, Ministry of Communications, Government of India",
+  "jurisdiction": "central",
+  "url": "https://www.indiapost.gov.in/rti/structureofcircle",
+  "publishedOn": null,
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-30T15:18:22+05:30",
+  "contentType": "text/html",
+  "sizeBytes": null,
+  "sha256": null,
+  "provision": "Official RTI structure directory for postal circles",
+  "excerpt": "The current official page lists separate postal-circle structure documents, demonstrating that Department of Posts record custody and RTI routing are distributed geographically.",
+  "status": "verified",
+  "notes": "Verified structural evidence only. The page does not provide one complete current designation-based CPIO/FAA directory or establish a single service address for all postal grievances.",
+  "review": {
+    "technical": {
+      "status": "approved",
+      "reviewer": "Codex technical research",
+      "reviewedAt": "2026-08-30T15:18:22+05:30",
+      "notes": "Current official page and its circle-by-circle organization were checked. No linked document was downloaded."
+    },
+    "legalRti": {
+      "status": "pending",
+      "reviewer": null,
+      "reviewedAt": null,
+      "notes": "Exact record-custody and transfer implications require review."
+    }
+  }
+}

@@ -50,3 +50,29 @@ For each domain, the next review must establish:
 7. authority-level RTI annual-return evidence where available.
 
 Until those checks and the rubric score pass, every entry remains candidate discovery only and cannot populate filing-ready output.
+
+## Candidate review 1 — Department of Posts
+
+**Weighted research score:** `66.25/100`
+
+**Decision:** `research`; blocked by hard gates
+
+| Dimension | Score | Finding |
+|---|---:|---|
+| Population served | 4/4 | Current official structure covers postal circles across India |
+| Grievance relevance | 4/4 | Fifth-highest Central grievance receipts in the official January–August 2025 table |
+| Source completeness | 1/4 | No complete current designation-based CPIO/FAA and service-address mapping verified |
+| Filing accessibility | 2/4 | Central mechanisms exist, but the correct circle/division/functional unit is unresolved |
+| Maintainability | 1/4 | Evidence is fragmented; several previously indexed official CPIO/FAA pages returned 404 during the current review |
+
+The Department is not one safely addressable RTI office for MVP purposes. Postal records may sit with a circle, region, division, directorate function or other unit. The current India Post RTI structure page exposes separate circle documents, while older indexed directory pages cannot be treated as current merely because search text remains available.
+
+This candidate fails the minimum `sourceCompleteness >= 3` and `maintainability >= 2` selection gates. Its numerical score cannot override those failures. It must not produce filing-ready output or be converted to an authority record.
+
+Required follow-up:
+
+1. locate a current official landing page for the complete CPIO and FAA directory;
+2. determine whether a stable designation-based mapping exists by grievance subject and postal geography;
+3. confirm the exact Central RTI Online public-authority labels;
+4. verify a service address for each supported routing unit; and
+5. reassess whether supporting this authority would require a nested routing model beyond the current MVP authority schema.
