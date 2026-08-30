@@ -76,3 +76,29 @@ Required follow-up:
 3. confirm the exact Central RTI Online public-authority labels;
 4. verify a service address for each supported routing unit; and
 5. reassess whether supporting this authority would require a nested routing model beyond the current MVP authority schema.
+
+## Candidate review 2 — Department of Telecommunications
+
+**Weighted research score:** `91.25/100`
+
+**Decision:** `selected-pending-verification`; freshness gate failed
+
+| Dimension | Score | Finding |
+|---|---:|---|
+| Population served | 4/4 | National telecommunications-policy and citizen-service reach |
+| Grievance relevance | 4/4 | Third-highest Central grievance receipts in the official January–August 2025 table |
+| Source completeness | 3/4 | Central RTI Cell, subject-mapped CPIO/FAA designations, rooms and main address found; directory freshness remains insufficient |
+| Filing accessibility | 4/4 | Central intake can forward within DoT; online and offline routes exist |
+| Maintainability | 3/4 | Stable dated matrix exists, but it contains changing incumbents and needs a current designation-only refresh |
+
+DoT's official administrative chapter says its RTI Cell receives applications and appeals for the Department and forwards them to the relevant CPIO or FAA. It also warns that attached/subordinate offices and societies are separate public authorities. SunwaiSaathi must therefore restrict this candidate to records held by DoT itself and must not silently route TRAI, BSNL, MTNL, field units or another body through the Department.
+
+The 5 December 2025 matrix is well structured but exceeds the project's six-month freshness window on the evidence date. All substantive directory gates pass except `currentWithinReviewWindow`. The candidate cannot become `verified-launch-candidate` until a current official matrix or explicit current confirmation is found and reviewed.
+
+Required follow-up:
+
+1. locate a matrix dated within the active freshness window or obtain official confirmation that the December 2025 matrix remains current;
+2. convert the subject mapping to designation-based records without names, phone numbers or email addresses;
+3. verify the exact Central RTI Online label through a controlled portal check;
+4. define the safe unsupported exit for grievances belonging to a separate public authority; and
+5. obtain technical and legal/RTI directory approval.

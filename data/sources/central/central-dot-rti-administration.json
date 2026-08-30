@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "CENTRAL-DOT-RTI-ADMINISTRATION",
+  "title": "Department of Telecommunications — Administration, Training and Miscellaneous Activities, Chapter 7",
+  "issuer": "Department of Telecommunications, Ministry of Communications, Government of India",
+  "jurisdiction": "central",
+  "url": "https://www.dot.gov.in/static/uploads/2025/07/ede9c96ddd5253a339f3c6f4cabbcc7d.pdf",
+  "publishedOn": null,
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-30T15:21:15+05:30",
+  "contentType": "application/pdf",
+  "sizeBytes": null,
+  "sha256": null,
+  "provision": "Chapter 7.1, Right to Information administration",
+  "excerpt": "DoT states that its RTI Cell receives applications and appeals for the Department and forwards them to the relevant CPIOs and FAAs; attached and subordinate bodies remain separate public authorities.",
+  "status": "verified",
+  "notes": "Technically verified from the indexed official chapter. No file was downloaded. This supports central intake for DoT itself but not attached-body routing.",
+  "review": {
+    "technical": {
+      "status": "approved",
+      "reviewer": "Codex technical research",
+      "reviewedAt": "2026-08-30T15:21:15+05:30",
+      "notes": "Central RTI Cell and separate-public-authority boundary checked."
+    },
+    "legalRti": {
+      "status": "pending",
+      "reviewer": null,
+      "reviewedAt": null,
+      "notes": null
+    }
+  }
+}

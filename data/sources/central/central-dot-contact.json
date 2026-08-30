@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "CENTRAL-DOT-CONTACT",
+  "title": "Department of Telecommunications — official contact page",
+  "issuer": "Department of Telecommunications, Ministry of Communications, Government of India",
+  "jurisdiction": "central",
+  "url": "https://www.eservices.dot.gov.in/saral/contact-us",
+  "publishedOn": null,
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-30T15:21:15+05:30",
+  "contentType": "text/html",
+  "sizeBytes": null,
+  "sha256": null,
+  "provision": "Current departmental service address",
+  "excerpt": "The current official page identifies the Department of Telecommunications at Sanchar Bhawan, 20 Ashoka Road, New Delhi 110001.",
+  "status": "verified",
+  "notes": "Address evidence only. It does not replace the subject-specific CPIO/FAA matrix or prove an RTI filing route by itself.",
+  "review": {
+    "technical": {
+      "status": "approved",
+      "reviewer": "Codex technical research",
+      "reviewedAt": "2026-08-30T15:21:15+05:30",
+      "notes": "Department identity and main service address checked on the current official page."
+    },
+    "legalRti": {
+      "status": "pending",
+      "reviewer": null,
+      "reviewedAt": null,
+      "notes": null
+    }
+  }
+}

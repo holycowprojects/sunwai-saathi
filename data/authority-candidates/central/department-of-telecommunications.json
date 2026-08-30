@@ -1,0 +1,47 @@
+{
+  "$schema": "../../schemas/authority-candidate.schema.json",
+  "id": "central-department-of-telecommunications",
+  "jurisdiction": "central",
+  "authorityName": "Department of Telecommunications",
+  "selectionBasis": "official-statistics",
+  "asOfDate": "2026-08-30",
+  "scores": {
+    "populationServed": {
+      "value": 4,
+      "rationale": "DoT administers national telecommunications policy and its grievance evidence covers broadly used telecom services.",
+      "sourceIds": ["CENTRAL-DOT-RTI-ADMINISTRATION", "CENTRAL-CPGRAMS-AUG-2025"]
+    },
+    "grievanceRelevance": {
+      "value": 4,
+      "rationale": "DARPG ranked DoT third with 55,014 grievance receipts from January through August 2025.",
+      "sourceIds": ["CENTRAL-CPGRAMS-AUG-2025"]
+    },
+    "sourceCompleteness": {
+      "value": 3,
+      "rationale": "Official sources identify a central RTI Cell, subject-specific CPIO and FAA designations, room details and the main service address, but the latest located matrix is outside the six-month freshness window.",
+      "sourceIds": ["CENTRAL-DOT-CPIO-FAA-2025", "CENTRAL-DOT-RTI-ADMINISTRATION", "CENTRAL-DOT-CONTACT"]
+    },
+    "filingAccessibility": {
+      "value": 4,
+      "rationale": "DoT has a central RTI Cell for departmental applications and appeals and is served by the Central online and offline routes; separate attached authorities remain excluded.",
+      "sourceIds": ["CENTRAL-DOT-RTI-ADMINISTRATION", "CENTRAL-PORTAL-HOME", "CENTRAL-DOT-CONTACT"]
+    },
+    "maintainability": {
+      "value": 3,
+      "rationale": "A stable dated subject matrix and centralized RTI Cell exist, but periodic person-level changes require a fresh designation-only verification before release.",
+      "sourceIds": ["CENTRAL-DOT-CPIO-FAA-2025", "CENTRAL-DOT-RTI-ADMINISTRATION"]
+    }
+  },
+  "weightedTotal": 91.25,
+  "evidenceSourceIds": ["CENTRAL-CPGRAMS-AUG-2025", "CENTRAL-DOT-CPIO-FAA-2025", "CENTRAL-DOT-RTI-ADMINISTRATION", "CENTRAL-DOT-CONTACT", "CENTRAL-PORTAL-HOME"],
+  "verificationGates": {
+    "officialAuthorityEvidence": true,
+    "pioOfficeEvidence": true,
+    "faaOfficeEvidence": true,
+    "serviceAddressEvidence": true,
+    "filingRouteEvidence": true,
+    "currentWithinReviewWindow": false
+  },
+  "decision": "selected-pending-verification",
+  "notes": "Promising launch candidate. Obtain a current official confirmation or replacement of the 5 December 2025 CPIO/FAA matrix, then encode designation-based subject routing without personal names or contact details. Exclude attached/subordinate public authorities unless separately verified."
+}

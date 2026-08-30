@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "CENTRAL-DOT-CPIO-FAA-2025",
+  "title": "Department of Telecommunications — List of CPIOs and FAAs as on 5 December 2025",
+  "issuer": "Department of Telecommunications, Ministry of Communications, Government of India",
+  "jurisdiction": "central",
+  "url": "https://dot.gov.in/sites/default/files/Details%20of%20CPIOs%20and%20FAAs%20in%20DoT_0.pdf?download=1",
+  "publishedOn": "2025-12-05",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-30T15:21:15+05:30",
+  "contentType": "application/pdf",
+  "sizeBytes": null,
+  "sha256": null,
+  "provision": "Section 4(1)(b)(xvi) CPIO/FAA subject directory",
+  "excerpt": "The dated official matrix maps DoT wings and subjects to current CPIO designations, FAA designations and Sanchar Bhawan room details.",
+  "status": "verified",
+  "notes": "Technically verified from the indexed official matrix without downloading it. It is older than the project's six-month authority-directory freshness window and cannot pass the current-evidence gate without refresh confirmation.",
+  "review": {
+    "technical": {
+      "status": "approved",
+      "reviewer": "Codex technical research",
+      "reviewedAt": "2026-08-30T15:21:15+05:30",
+      "notes": "Directory date, subject mapping, CPIO/FAA designations and room-address structure checked. Personal names and contacts were not copied into project data."
+    },
+    "legalRti": {
+      "status": "pending",
+      "reviewer": null,
+      "reviewedAt": null,
+      "notes": "Authority and attached-office boundaries require legal/RTI review."
+    }
+  }
+}
