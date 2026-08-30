@@ -102,3 +102,36 @@ Required follow-up:
 3. verify the exact Central RTI Online label through a controlled portal check;
 4. define the safe unsupported exit for grievances belonging to a separate public authority; and
 5. obtain technical and legal/RTI directory approval.
+
+## Candidate review 3 — Unique Identification Authority of India
+
+**Weighted research score:** `93.75/100`
+
+**Decision:** `selected-pending-verification`; current directory files located but not independently inspected
+
+| Dimension | Score | Finding |
+|---|---:|---|
+| Population served | 4/4 | National authority with Head Office and eight Regional Offices covering all States and Union Territories |
+| Grievance relevance | 4/4 | Top-ten Central grievance domain and 3,979 RTI applications handled in 2024–25 |
+| Source completeness | 3/4 | Current dated Head Office and Regional Office directory files are linked, but their full designation/address contents remain uninspected |
+| Filing accessibility | 4/4 | Nodal RTI Cell processes online/offline applications and appeals; regional routing is published |
+| Maintainability | 4/4 | Stable maintained hub, dated current lists and archives |
+
+Authority identity, filing-route and freshness gates pass on the evidence date. PIO designation, FAA designation and service-address gates remain false until the linked 18 May 2026 files are independently inspected. The candidate also requires legal/RTI approval, exact Central portal-label confirmation and privacy-safe routing fixtures.
+
+### Mandatory privacy boundary
+
+UIDAI's own RTI disclosures acknowledge that applications and appeals may contain identifiers and contact data. SunwaiSaathi must not ask for or store an Aadhaar number to select an authority or Regional Office. Routing uses the grievance's State/UT and record-owning office; any case reference needed in a draft remains local, user-confirmed and excluded from logs, diagnostics, examples and repository fixtures.
+
+### Stale statutory text conflict
+
+The current UIDAI RTI hub reproduces the superseded pre-13-November-2025 text of Section 8(1)(j), including the former privacy/public-interest wording. That page is valid directory evidence but disputed legal-text evidence. SunwaiSaathi must quarantine its statutory paragraph and always use the current India Code/DPDP baseline for legal wording and the officer-information caveat.
+
+Required follow-up:
+
+1. independently review the 18 May 2026 Head Office and Regional Office lists;
+2. encode designation-based regional routing without copying incumbent names or contact details;
+3. verify the exact Central RTI Online public-authority label;
+4. create privacy tests proving Aadhaar numbers cannot enter routing, logs, diagnostics or fixtures;
+5. add a regression test that the UIDAI page's superseded Section 8(1)(j) text can never override the national legal dataset; and
+6. obtain technical and legal/RTI directory approval.

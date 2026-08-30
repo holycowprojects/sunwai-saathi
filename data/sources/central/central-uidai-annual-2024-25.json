@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "CENTRAL-UIDAI-ANNUAL-2024-25",
+  "title": "UIDAI Annual Report 2024–25 — Nodal RTI Cell",
+  "issuer": "Unique Identification Authority of India, Government of India",
+  "jurisdiction": "central",
+  "url": "https://uidai.gov.in/images/E_UIDAI_Annual_Report_24-25.pdf",
+  "publishedOn": null,
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-30T15:25:52+05:30",
+  "contentType": "application/pdf",
+  "sizeBytes": null,
+  "sha256": null,
+  "provision": "Section 6.5, Nodal RTI Cell",
+  "excerpt": "The report states that the Nodal RTI Cell processes online and offline applications and appeals; UIDAI handled 3,979 RTI applications and 461 appeals in 2024–25.",
+  "status": "verified",
+  "notes": "Technically verified from the indexed official report. No file was downloaded. Statistics demonstrate activity and centralized intake, not filing accuracy by themselves.",
+  "review": {
+    "technical": {
+      "status": "approved",
+      "reviewer": "Codex technical research",
+      "reviewedAt": "2026-08-30T15:25:52+05:30",
+      "notes": "Nodal-cell role and annual RTI application/appeal counts checked."
+    },
+    "legalRti": {
+      "status": "pending",
+      "reviewer": null,
+      "reviewedAt": null,
+      "notes": null
+    }
+  }
+}

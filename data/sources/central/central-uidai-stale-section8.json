@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "CENTRAL-UIDAI-STALE-SECTION8",
+  "title": "UIDAI RTI hub — superseded Section 8(1)(j) display",
+  "issuer": "Unique Identification Authority of India, Government of India",
+  "jurisdiction": "central",
+  "url": "https://uidai.gov.in/en/contact-support/rti.html",
+  "publishedOn": "2026-04-11",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-30T15:25:52+05:30",
+  "contentType": "text/html",
+  "sizeBytes": null,
+  "sha256": null,
+  "provision": "Displayed Section 8(1)(j) explanatory text",
+  "excerpt": "The current page displays the pre-13-November-2025 version of Section 8(1)(j), rather than the text in the current consolidated RTI Act.",
+  "status": "disputed",
+  "notes": "Quarantined negative evidence. This record must never control legal wording, drafting, scoring or filing behavior. The national India Code and DPDP commencement records control.",
+  "review": {
+    "technical": {
+      "status": "approved",
+      "reviewer": "Codex technical research",
+      "reviewedAt": "2026-08-30T15:25:52+05:30",
+      "notes": "Displayed wording was compared with the already verified national statutory baseline."
+    },
+    "legalRti": {
+      "status": "pending",
+      "reviewer": null,
+      "reviewedAt": null,
+      "notes": "Confirm conflict classification and quarantine behavior."
+    }
+  }
+}

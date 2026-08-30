@@ -1,0 +1,47 @@
+{
+  "$schema": "../../schemas/authority-candidate.schema.json",
+  "id": "central-uidai",
+  "jurisdiction": "central",
+  "authorityName": "Unique Identification Authority of India",
+  "selectionBasis": "official-statistics",
+  "asOfDate": "2026-08-30",
+  "scores": {
+    "populationServed": {
+      "value": 4,
+      "rationale": "UIDAI is a national authority with Head Office and eight Regional Offices covering all States and Union Territories.",
+      "sourceIds": ["CENTRAL-UIDAI-STRUCTURE"]
+    },
+    "grievanceRelevance": {
+      "value": 4,
+      "rationale": "DARPG ranked UIDAI tenth with 28,802 grievance receipts from January through August 2025, and its annual report records substantial RTI activity.",
+      "sourceIds": ["CENTRAL-CPGRAMS-AUG-2025", "CENTRAL-UIDAI-ANNUAL-2024-25"]
+    },
+    "sourceCompleteness": {
+      "value": 3,
+      "rationale": "The current RTI hub links dated Head Office and Regional Office CPIO/FAA lists and appointment archives, but their complete designation and service-address contents have not yet been independently inspected.",
+      "sourceIds": ["CENTRAL-UIDAI-RTI-HUB", "CENTRAL-UIDAI-STRUCTURE", "CENTRAL-UIDAI-ANNUAL-2024-25"]
+    },
+    "filingAccessibility": {
+      "value": 4,
+      "rationale": "UIDAI documents a Nodal RTI Cell for online and offline applications/appeals and publishes regional routing alongside Central online filing.",
+      "sourceIds": ["CENTRAL-UIDAI-ANNUAL-2024-25", "CENTRAL-UIDAI-RTI-HUB", "CENTRAL-PORTAL-HOME"]
+    },
+    "maintainability": {
+      "value": 4,
+      "rationale": "The official RTI hub carries current dated HO/RO lists, appointment-order history and archives on a stable maintained page.",
+      "sourceIds": ["CENTRAL-UIDAI-RTI-HUB", "CENTRAL-UIDAI-STRUCTURE"]
+    }
+  },
+  "weightedTotal": 93.75,
+  "evidenceSourceIds": ["CENTRAL-CPGRAMS-AUG-2025", "CENTRAL-UIDAI-RTI-HUB", "CENTRAL-UIDAI-STRUCTURE", "CENTRAL-UIDAI-ANNUAL-2024-25", "CENTRAL-PORTAL-HOME"],
+  "verificationGates": {
+    "officialAuthorityEvidence": true,
+    "pioOfficeEvidence": false,
+    "faaOfficeEvidence": false,
+    "serviceAddressEvidence": false,
+    "filingRouteEvidence": true,
+    "currentWithinReviewWindow": true
+  },
+  "decision": "selected-pending-verification",
+  "notes": "Strong launch candidate pending independent inspection of the current HO/RO directory files, technical and legal/RTI approval, exact portal-label verification and privacy-safe routing fixtures. Never collect an Aadhaar number as a routing field. Quarantine the RTI hub's superseded Section 8(1)(j) text; the current India Code baseline always controls legal wording."
+}

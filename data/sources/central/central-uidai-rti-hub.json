@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "CENTRAL-UIDAI-RTI-HUB",
+  "title": "UIDAI Right to Information hub",
+  "issuer": "Unique Identification Authority of India, Government of India",
+  "jurisdiction": "central",
+  "url": "https://uidai.gov.in/en/contact-support/rti.html",
+  "publishedOn": "2026-04-11",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-30T15:25:52+05:30",
+  "contentType": "text/html",
+  "sizeBytes": null,
+  "sha256": null,
+  "provision": "Section 4 disclosures and current CPIO/FAA directory hub",
+  "excerpt": "The page links headquarters and regional CPIO/FAA lists as on 18 May 2026 and appointment-order archives; it was last updated 30 June 2026.",
+  "status": "verified",
+  "notes": "This record is scoped only to directory metadata. The page's superseded Section 8(1)(j) wording is represented by CENTRAL-UIDAI-STALE-SECTION8 and is not a dependency of the candidate score.",
+  "review": {
+    "technical": {
+      "status": "approved",
+      "reviewer": "Codex technical research",
+      "reviewedAt": "2026-08-30T15:25:52+05:30",
+      "notes": "Page update date, directory dates, HO/RO split and archives were checked. No linked file was downloaded."
+    },
+    "legalRti": {
+      "status": "pending",
+      "reviewer": null,
+      "reviewedAt": null,
+      "notes": "Directory applicability remains pending review."
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "CENTRAL-UIDAI-STRUCTURE",
+  "title": "UIDAI organizational structure and regional jurisdiction",
+  "issuer": "Unique Identification Authority of India, Government of India",
+  "jurisdiction": "central",
+  "url": "https://uidai.gov.in/en/about-uidai/unique-identification-authority-of-india/organizational-structure.html",
+  "publishedOn": null,
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-30T15:25:52+05:30",
+  "contentType": "text/html",
+  "sizeBytes": null,
+  "sha256": null,
+  "provision": "Head Office and eight Regional Office jurisdiction mapping",
+  "excerpt": "The current page identifies UIDAI Head Office and eight Regional Offices and maps each Regional Office to its covered States and Union Territories.",
+  "status": "verified",
+  "notes": "Technical authority-routing evidence. Regional service addresses still come from the official regional-office and CPIO/FAA directory paths.",
+  "review": {
+    "technical": {
+      "status": "approved",
+      "reviewer": "Codex technical research",
+      "reviewedAt": "2026-08-30T15:25:52+05:30",
+      "notes": "HO/RO structure and all eight regional jurisdiction groupings checked."
+    },
+    "legalRti": {
+      "status": "pending",
+      "reviewer": null,
+      "reviewedAt": null,
+      "notes": null
+    }
+  }
+}
