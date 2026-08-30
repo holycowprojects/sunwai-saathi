@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/authority-candidate.schema.json",
+  "id": "central-department-of-financial-services",
+  "jurisdiction": "central",
+  "authorityName": "Department of Financial Services",
+  "selectionBasis": "official-statistics",
+  "asOfDate": "2026-08-30",
+  "scores": {
+    "populationServed": { "value": 4, "rationale": "DFS has nationwide banking, insurance and pension policy, oversight and grievance responsibilities.", "sourceIds": ["CENTRAL-DFS-ANNUAL-2025-26", "CENTRAL-DFS-GRIEVANCE-BOUNDARY"] },
+    "grievanceRelevance": { "value": 4, "rationale": "DFS is the second-highest domain in the official Central grievance table and reports 6,387 RTI applications through 30 November 2025.", "sourceIds": ["CENTRAL-CPGRAMS-AUG-2025", "CENTRAL-DFS-ANNUAL-2025-26"] },
+    "sourceCompleteness": { "value": 3, "rationale": "A current appointment entry, work-allocation path, online filing route and activity evidence exist, but the June directory contents remain uninspected and the postal PIN conflict is unresolved.", "sourceIds": ["CENTRAL-DFS-RTI-HUB", "CENTRAL-DFS-ANNUAL-2025-26", "CENTRAL-DFS-GRIEVANCE-BOUNDARY"] },
+    "filingAccessibility": { "value": 3, "rationale": "DFS confirms Central RTI Online filing and maintains a current RTI hub; postal filing is withheld until the address conflict is resolved.", "sourceIds": ["CENTRAL-DFS-RTI-HUB", "CENTRAL-DFS-ANNUAL-2025-26", "CENTRAL-PORTAL-HOME"] },
+    "maintainability": { "value": 4, "rationale": "The official RTI hub publishes dated appointment updates and historical entries on a maintained page, providing a predictable review path.", "sourceIds": ["CENTRAL-DFS-RTI-HUB"] }
+  },
+  "weightedTotal": 90,
+  "evidenceSourceIds": ["CENTRAL-CPGRAMS-AUG-2025", "CENTRAL-PORTAL-HOME", "CENTRAL-DFS-RTI-HUB", "CENTRAL-DFS-ANNUAL-2025-26", "CENTRAL-DFS-GRIEVANCE-BOUNDARY"],
+  "verificationGates": {
+    "officialAuthorityEvidence": true,
+    "pioOfficeEvidence": false,
+    "faaOfficeEvidence": false,
+    "serviceAddressEvidence": false,
+    "filingRouteEvidence": true,
+    "currentWithinReviewWindow": true
+  },
+  "decision": "selected-pending-verification",
+  "notes": "Strong candidate for DFS-held grievance and oversight records only. Never route a bank account, transaction, loan, insurance claim, pension account or institution-held complaint record to DFS without evidence that DFS holds the requested record. Do not collect account numbers, card data, CVV, PIN, OTP, passwords, Aadhaar, PAN or full financial documents for authority routing. The disputed postal PIN source is deliberately excluded from candidate dependencies."
+}

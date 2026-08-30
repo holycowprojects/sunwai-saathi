@@ -193,3 +193,34 @@ Required follow-up:
 4. define safe subject-and-geography routing and mandatory user confirmation;
 5. keep corporations and autonomous bodies outside Railway Board routing; and
 6. obtain technical and legal/RTI directory approval before reconsideration.
+
+## Candidate review 6 — Department of Financial Services
+
+**Weighted research score:** `90/100`
+
+**Decision:** `selected-pending-verification`; current directory contents and postal address remain unresolved
+
+| Dimension | Score | Finding |
+|---|---:|---|
+| Population served | 4/4 | Nationwide banking, insurance and pension policy, oversight and grievance remit |
+| Grievance relevance | 4/4 | Second-highest Central grievance domain and 6,387 RTI applications through 30 November 2025 |
+| Source completeness | 3/4 | Current appointment entry, filing route and activity evidence exist; June directory contents and postal PIN remain unresolved |
+| Filing accessibility | 3/4 | Central online filing is explicit and the current RTI hub is maintained; postal output remains blocked |
+| Maintainability | 4/4 | Dated appointment updates and history provide a predictable official review path |
+
+DFS is a strong candidate when the requested record is held by the Department—for example, the action taken on a CPGRAMS grievance routed to DFS or a departmental file. It is not a default substitute for a bank, insurer, RBI, IRDAI, PFRDA, pension intermediary or another financial institution. The official grievance page lists those organizations and their own mechanisms separately.
+
+The current RTI hub lists a CPIO/AA appointment document dated 16 June 2026, but that linked file has not yet been independently inspected. A separate official conflict also blocks postal output: the 2025–26 annual report prints PIN `110091`, while the February appointment order and current grievance page use `110001` for Jeevan Deep Building. Neither value may be guessed; online filing remains the only verified route for candidate scoring.
+
+### Mandatory financial-data boundary
+
+Authority routing must never request an account number, card number, CVV, PIN, OTP, password, Aadhaar, PAN, transaction credential or complete financial document. Institution name, grievance subject, CPGRAMS reference type and user-confirmed record holder are sufficient for routing. Any reference included in a draft remains local and excluded from logs, diagnostics, analytics and repository fixtures.
+
+Required follow-up:
+
+1. independently inspect the 16 June 2026 CPIO/AA appointment document;
+2. encode designation and work-allocation records without incumbent names or contacts;
+3. resolve the official postal PIN conflict from current primary evidence;
+4. verify the exact Central RTI Online public-authority label;
+5. define deterministic DFS-versus-institution record-custody exits and privacy tests; and
+6. obtain technical and legal/RTI directory approval.

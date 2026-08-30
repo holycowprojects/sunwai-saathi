@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "CENTRAL-DFS-RTI-HUB",
+  "title": "Department of Financial Services RTI hub",
+  "issuer": "Department of Financial Services, Ministry of Finance, Government of India",
+  "jurisdiction": "central",
+  "url": "https://www.financialservices.gov.in/rti",
+  "publishedOn": null,
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-30T15:49:38+05:30",
+  "contentType": "text/html",
+  "sizeBytes": null,
+  "sha256": null,
+  "provision": "Current CPIO/AA appointment index and online filing link",
+  "excerpt": "The maintained official RTI hub lists a 16 June 2026 CPIO/Appellate Authority appointment document and links online RTI application and appeal filing.",
+  "status": "verified",
+  "notes": "Verified as current directory metadata and filing-route evidence only. The linked June appointment document was located but its full designation, work-allocation and address contents were not independently inspected or downloaded.",
+  "review": {
+    "technical": {
+      "status": "approved",
+      "reviewer": "Codex technical research",
+      "reviewedAt": "2026-08-30T15:49:38+05:30",
+      "notes": "Hub recency, June appointment entry and online-filing link checked."
+    },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": null }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "CENTRAL-DFS-GRIEVANCE-BOUNDARY",
+  "title": "Department of Financial Services grievance scope and institution directory",
+  "issuer": "Department of Financial Services, Ministry of Finance, Government of India",
+  "jurisdiction": "central",
+  "url": "https://www.financialservices.gov.in/grievances-overview",
+  "publishedOn": null,
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-30T15:49:38+05:30",
+  "contentType": "text/html",
+  "sizeBytes": null,
+  "sha256": null,
+  "provision": "DFS grievance scope and separate financial-institution routes",
+  "excerpt": "DFS describes its banking, insurance and pension grievance remit while listing banks, financial institutions, insurers and regulators as distinct organizations with their own mechanisms and websites.",
+  "status": "verified",
+  "notes": "Boundary evidence only. SunwaiSaathi must distinguish a DFS-held CPGRAMS/action record from an account, transaction, claim or complaint record held by a bank, insurer, regulator, pension body or other institution.",
+  "review": {
+    "technical": {
+      "status": "approved",
+      "reviewer": "Codex technical research",
+      "reviewedAt": "2026-08-30T15:49:38+05:30",
+      "notes": "Department scope, three-tier institution mechanisms and separate-organization directory checked."
+    },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Record-custody boundary requires review." }
+  }
+}

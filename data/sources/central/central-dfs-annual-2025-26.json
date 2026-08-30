@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "CENTRAL-DFS-ANNUAL-2025-26",
+  "title": "Department of Financial Services Annual Report 2025-26 — RTI activity and filing route",
+  "issuer": "Department of Financial Services, Ministry of Finance, Government of India",
+  "jurisdiction": "central",
+  "url": "https://financialservices.gov.in/sites/default/files/2026-05/DFS-ANNUAL-REPORT-ENGLISH-2025-26.pdf",
+  "publishedOn": "2026-04-01",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-30T15:49:38+05:30",
+  "contentType": "application/pdf",
+  "sizeBytes": null,
+  "sha256": null,
+  "provision": "Chapter V, sections 13 and 14, excluding the conflicting postal PIN",
+  "excerpt": "DFS reports 6,387 RTI applications and 167 first appeals through 30 November 2025 across banking, insurance and pension matters and confirms Central RTI Online filing.",
+  "status": "verified",
+  "notes": "Activity, subject scope and online route only. The report's RTI postal PIN is excluded and separately quarantined because it conflicts with other official DFS material. The PDF was inspected through the web index and was not downloaded or committed.",
+  "review": {
+    "technical": {
+      "status": "approved",
+      "reviewer": "Codex technical research",
+      "reviewedAt": "2026-08-30T15:49:38+05:30",
+      "notes": "RTI totals, reporting cutoff, subject scope, institution boundary and online route checked."
+    },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": null }
+  }
+}

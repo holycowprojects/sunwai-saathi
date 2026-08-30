@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "CENTRAL-DFS-ADDRESS-CONFLICT",
+  "title": "Department of Financial Services official postal-address conflict",
+  "issuer": "Department of Financial Services, Ministry of Finance, Government of India",
+  "jurisdiction": "central",
+  "url": "https://financialservices.gov.in/sites/default/files/2026-05/DFS-ANNUAL-REPORT-ENGLISH-2025-26.pdf",
+  "publishedOn": "2026-04-01",
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-30T15:49:38+05:30",
+  "contentType": "application/pdf",
+  "sizeBytes": null,
+  "sha256": null,
+  "provision": "Chapter V, section 14 postal destination",
+  "excerpt": "The annual report prints PIN 110091 for the DFS RTI postal destination, while the February 2026 appointment order and current grievance page use PIN 110001 for Jeevan Deep Building.",
+  "status": "disputed",
+  "notes": "Quarantined from all filing output. The current June 2026 appointment document must be independently inspected to resolve the designation-based RTI service address; no PIN may be guessed or silently normalized.",
+  "review": {
+    "technical": {
+      "status": "approved",
+      "reviewer": "Codex technical research",
+      "reviewedAt": "2026-08-30T15:49:38+05:30",
+      "notes": "Conflicting official PIN values were compared and isolated from the usable annual-report claims."
+    },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Resolve from current primary directory evidence before postal filing support." }
+  }
+}
