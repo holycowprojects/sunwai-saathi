@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "CENTRAL-EPFO-REACH",
+  "title": "EPFO organization overview and national reach",
+  "issuer": "Employees' Provident Fund Organisation, Ministry of Labour and Employment, Government of India",
+  "jurisdiction": "central",
+  "url": "https://www.epfindia.gov.in/site_en/index.php/site_docs/site_docs/site_docs/pdfs/PDFs/Downloads_PDFs/OrgChart_Eng.pdf",
+  "publishedOn": null,
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-30T15:36:51+05:30",
+  "contentType": "application/pdf",
+  "sizeBytes": null,
+  "sha256": null,
+  "provision": "National account and office reach",
+  "excerpt": "The official indexed overview reports 29.88 crore member accounts from the 2022-23 annual report and 147 offices across India.",
+  "status": "verified",
+  "notes": "Candidate reach evidence only; the figures are historical and do not prove current RTI routing. The file was not downloaded or committed, and a direct open attempt returned an upstream error.",
+  "review": {
+    "technical": {
+      "status": "approved",
+      "reviewer": "Codex technical research",
+      "reviewedAt": "2026-08-30T15:36:51+05:30",
+      "notes": "Official indexed reach figures checked and scoped to candidate scoring only."
+    },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": null }
+  }
+}

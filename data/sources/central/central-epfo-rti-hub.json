@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "CENTRAL-EPFO-RTI-HUB",
+  "title": "EPFO Right to Information hub",
+  "issuer": "Employees' Provident Fund Organisation, Ministry of Labour and Employment, Government of India",
+  "jurisdiction": "central",
+  "url": "https://www.epfindia.gov.in/site_en/RTI.php?id=sm12_index",
+  "publishedOn": null,
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-30T15:36:51+05:30",
+  "contentType": "text/html",
+  "sizeBytes": null,
+  "sha256": null,
+  "provision": "Official EPFO RTI landing page and Central RTI Online route",
+  "excerpt": "The recently indexed official page identifies EPFO's RTI resources and links RTI Online.",
+  "status": "disputed",
+  "notes": "Discovery and filing-route evidence only. The recently indexed page reported a 17 April 2026 update, but direct retrieval returned 404 on the evidence date. It cannot prove a current CPIO, FAA or service address and must not control filing-ready behavior.",
+  "review": {
+    "technical": {
+      "status": "approved",
+      "reviewer": "Codex technical research",
+      "reviewedAt": "2026-08-30T15:36:51+05:30",
+      "notes": "Official search index content and direct-retrieval failure were both checked; no linked file was downloaded."
+    },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": null }
+  }
+}

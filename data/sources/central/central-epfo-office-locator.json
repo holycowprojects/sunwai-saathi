@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "CENTRAL-EPFO-OFFICE-LOCATOR",
+  "title": "EPFO bilingual office-jurisdiction locator",
+  "issuer": "Employees' Provident Fund Organisation, Ministry of Labour and Employment, Government of India",
+  "jurisdiction": "central",
+  "url": "https://www.epfindia.gov.in/site_en/Location_an_office.php/FAQ.php",
+  "publishedOn": null,
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-30T15:36:51+05:30",
+  "contentType": "text/html",
+  "sizeBytes": null,
+  "sha256": null,
+  "provision": "State/UT, district, address and office-jurisdiction lookup",
+  "excerpt": "The official bilingual locator maps States/UTs, districts and EPFO field offices, but warns that the displayed data is under verification by field offices.",
+  "status": "verified",
+  "notes": "Verified as routing-discovery evidence only. The official under-verification warning prevents automatic filing-ready routing, and the locator does not prove CPIO/FAA designations.",
+  "review": {
+    "technical": {
+      "status": "approved",
+      "reviewer": "Codex technical research",
+      "reviewedAt": "2026-08-30T15:36:51+05:30",
+      "notes": "Locator scope, nationwide options and its explicit verification warning checked."
+    },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "A field-office match is not treated as proof of the correct RTI addressee." }
+  }
+}

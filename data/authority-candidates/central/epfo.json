@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/authority-candidate.schema.json",
+  "id": "central-epfo",
+  "jurisdiction": "central",
+  "authorityName": "Employees' Provident Fund Organisation",
+  "selectionBasis": "official-statistics",
+  "asOfDate": "2026-08-30",
+  "scores": {
+    "populationServed": { "value": 4, "rationale": "EPFO's official indexed overview reports 29.88 crore member accounts and 147 offices across India.", "sourceIds": ["CENTRAL-EPFO-REACH"] },
+    "grievanceRelevance": { "value": 4, "rationale": "The official CPGRAMS report ranks the Ministry of Labour and Employment first for Central grievance receipts and identifies EPFO as a major contributor to the ministry's monthly volume.", "sourceIds": ["CENTRAL-CPGRAMS-AUG-2025"] },
+    "sourceCompleteness": { "value": 2, "rationale": "Official RTI, directory and office-locator paths exist, but no complete current designation-based CPIO/FAA mapping was verified; two recently indexed pages returned 404 and the locator labels its own data under verification.", "sourceIds": ["CENTRAL-EPFO-RTI-HUB", "CENTRAL-EPFO-DIRECTORY", "CENTRAL-EPFO-OFFICE-LOCATOR"] },
+    "filingAccessibility": { "value": 1, "rationale": "Central RTI Online and EPFO office discovery paths exist, but the exact live portal label, record-owning office and complete offline addressee have not been verified.", "sourceIds": ["CENTRAL-PORTAL-HOME", "CENTRAL-EPFO-RTI-HUB", "CENTRAL-EPFO-OFFICE-LOCATOR"] },
+    "maintainability": { "value": 2, "rationale": "EPFO maintains an official national locator and directory structure, but current availability failures and the locator's under-verification warning require manual reconstruction and confirmation.", "sourceIds": ["CENTRAL-EPFO-DIRECTORY", "CENTRAL-EPFO-OFFICE-LOCATOR"] }
+  },
+  "weightedTotal": 71.25,
+  "evidenceSourceIds": ["CENTRAL-CPGRAMS-AUG-2025", "CENTRAL-PORTAL-HOME", "CENTRAL-EPFO-RTI-HUB", "CENTRAL-EPFO-DIRECTORY", "CENTRAL-EPFO-OFFICE-LOCATOR", "CENTRAL-EPFO-REACH"],
+  "verificationGates": {
+    "officialAuthorityEvidence": true,
+    "pioOfficeEvidence": false,
+    "faaOfficeEvidence": false,
+    "serviceAddressEvidence": false,
+    "filingRouteEvidence": false,
+    "currentWithinReviewWindow": false
+  },
+  "decision": "research",
+  "notes": "The high numerical score cannot override sourceCompleteness below 3, disputed page availability, decentralized record custody or the official locator's under-verification warning. Do not collect a UAN, Aadhaar number, claim number, employer code or account credentials for authority routing; any user-confirmed case reference stays local and out of logs, diagnostics and fixtures. Filing-ready support requires a current designation-based CPIO/FAA directory and deterministic office-selection rules."
+}

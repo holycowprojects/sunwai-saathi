@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "CENTRAL-EPFO-DIRECTORY",
+  "title": "EPFO office directory",
+  "issuer": "Employees' Provident Fund Organisation, Ministry of Labour and Employment, Government of India",
+  "jurisdiction": "central",
+  "url": "https://www.epfindia.gov.in/site_en/Contact_us.php",
+  "publishedOn": null,
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-30T15:36:51+05:30",
+  "contentType": "text/html",
+  "sizeBytes": null,
+  "sha256": null,
+  "provision": "Head Office, zonal and field-office directory",
+  "excerpt": "The recently indexed official directory lists EPFO Head Office, zonal offices and their service addresses.",
+  "status": "disputed",
+  "notes": "Structural discovery only. Direct retrieval returned 404 on the evidence date, and the directory does not by itself establish the CPIO and FAA designations for each record-owning office.",
+  "review": {
+    "technical": {
+      "status": "approved",
+      "reviewer": "Codex technical research",
+      "reviewedAt": "2026-08-30T15:36:51+05:30",
+      "notes": "Indexed official directory coverage and direct-retrieval failure checked. No contact details or incumbent names were copied into project data."
+    },
+    "legalRti": { "status": "pending", "reviewer": null, "reviewedAt": null, "notes": "Record custody and designation mapping require review." }
+  }
+}

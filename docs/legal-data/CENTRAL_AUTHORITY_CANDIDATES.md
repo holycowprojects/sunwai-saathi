@@ -1,6 +1,6 @@
 # Central Government authority candidate evidence
 
-**Status:** Candidate discovery; no scored or selected authority
+**Status:** Candidate discovery and technical scoring; no verified launch authority
 
 **Evidence date:** 30 August 2026
 
@@ -134,4 +134,35 @@ Required follow-up:
 3. verify the exact Central RTI Online public-authority label;
 4. create privacy tests proving Aadhaar numbers cannot enter routing, logs, diagnostics or fixtures;
 5. add a regression test that the UIDAI page's superseded Section 8(1)(j) text can never override the national legal dataset; and
+6. obtain technical and legal/RTI directory approval.
+
+## Candidate review 4 — Employees' Provident Fund Organisation
+
+**Weighted research score:** `71.25/100`
+
+**Decision:** `research`; source-completeness and freshness gates failed
+
+| Dimension | Score | Finding |
+|---|---:|---|
+| Population served | 4/4 | Official indexed material reports 29.88 crore member accounts and 147 offices across India |
+| Grievance relevance | 4/4 | Labour and Employment leads the official Central grievance table, with EPFO identified as a major contributing organisation |
+| Source completeness | 2/4 | RTI, directory and locator paths exist, but no complete current designation-based CPIO/FAA mapping was verified |
+| Filing accessibility | 1/4 | Central and EPFO discovery paths exist, but the exact portal label, record-owning office and complete offline addressee remain unverified |
+| Maintainability | 2/4 | A national locator exists, but it warns that its data is under field-office verification and indexed directory pages failed direct retrieval |
+
+EPFO is a strong user-problem fit but a poor candidate for guessed routing. Member, claim, pension, employer and establishment records may be held by different field or functional offices. The official locator can help a user confirm the relevant office, but its own verification warning prevents SunwaiSaathi from treating the result as authoritative filing-ready evidence.
+
+The indexed official RTI hub and office-directory pages appeared recently maintained, but direct retrieval returned 404 during this review. They remain disputed discovery records rather than active directory evidence. The score falls in the shortlist range, but `sourceCompleteness < 3`, failed filing-route and freshness gates, and the unresolved custody boundary keep the candidate in `research`.
+
+### Mandatory privacy boundary
+
+Authority routing must not ask for a UAN, Aadhaar number, claim number, employer code, password, OTP or account credential. State/UT, district, grievance subject and a user-confirmed record-owning office are sufficient for routing research. Any reference included in the final draft remains local and must be excluded from repository fixtures, analytics, logs and diagnostics.
+
+Required follow-up:
+
+1. locate a current official designation-based CPIO and FAA directory for Head Office and field offices;
+2. verify complete service addresses and the exact Central RTI Online authority labels;
+3. define deterministic subject-and-geography routing with mandatory user confirmation;
+4. create a safe unsupported exit when the record-owning office cannot be established;
+5. add privacy tests for UAN, Aadhaar, claim and credential fields; and
 6. obtain technical and legal/RTI directory approval.
