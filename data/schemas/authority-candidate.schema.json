@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sunwai-saathi.org/schemas/authority-candidate.schema.json",
+  "title": "SunwaiSaathi Authority Candidate Scorecard",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "jurisdiction",
+    "authorityName",
+    "selectionBasis",
+    "asOfDate",
+    "scores",
+    "weightedTotal",
+    "evidenceSourceIds",
+    "verificationGates",
+    "decision"
+  ],
+  "properties": {
+    "$schema": { "type": "string" },
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "jurisdiction": { "enum": ["central", "delhi", "haryana", "maharashtra", "goa"] },
+    "authorityName": { "type": "string", "minLength": 1 },
+    "selectionBasis": { "enum": ["official-statistics", "fallback-rubric"] },
+    "asOfDate": { "type": "string", "format": "date" },
+    "scores": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["populationServed", "grievanceRelevance", "sourceCompleteness", "filingAccessibility", "maintainability"],
+      "properties": {
+        "populationServed": { "$ref": "#/$defs/score" },
+        "grievanceRelevance": { "$ref": "#/$defs/score" },
+        "sourceCompleteness": { "$ref": "#/$defs/score" },
+        "filingAccessibility": { "$ref": "#/$defs/score" },
+        "maintainability": { "$ref": "#/$defs/score" }
+      }
+    },
+    "weightedTotal": { "type": "number", "minimum": 0, "maximum": 100 },
+    "evidenceSourceIds": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^[A-Z0-9][A-Z0-9-]+$" }
+    },
+    "verificationGates": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["officialAuthorityEvidence", "pioOfficeEvidence", "faaOfficeEvidence", "serviceAddressEvidence", "filingRouteEvidence", "currentWithinReviewWindow"],
+      "properties": {
+        "officialAuthorityEvidence": { "type": "boolean" },
+        "pioOfficeEvidence": { "type": "boolean" },
+        "faaOfficeEvidence": { "type": "boolean" },
+        "serviceAddressEvidence": { "type": "boolean" },
+        "filingRouteEvidence": { "type": "boolean" },
+        "currentWithinReviewWindow": { "type": "boolean" }
+      }
+    },
+    "decision": { "enum": ["research", "shortlisted", "rejected", "selected-pending-verification", "verified-launch-candidate"] },
+    "notes": { "type": ["string", "null"] }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "decision": {
+            "enum": ["selected-pending-verification", "verified-launch-candidate"]
+          }
+        },
+        "required": ["decision"]
+      },
+      "then": {
+        "properties": {
+          "weightedTotal": { "minimum": 75 },
+          "scores": {
+            "properties": {
+              "sourceCompleteness": {
+                "properties": { "value": { "minimum": 3 } }
+              },
+              "maintainability": {
+                "properties": { "value": { "minimum": 2 } }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": { "decision": { "const": "verified-launch-candidate" } },
+        "required": ["decision"]
+      },
+      "then": {
+        "properties": {
+          "verificationGates": {
+            "properties": {
+              "officialAuthorityEvidence": { "const": true },
+              "pioOfficeEvidence": { "const": true },
+              "faaOfficeEvidence": { "const": true },
+              "serviceAddressEvidence": { "const": true },
+              "filingRouteEvidence": { "const": true },
+              "currentWithinReviewWindow": { "const": true }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "score": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "rationale", "sourceIds"],
+      "properties": {
+        "value": { "type": "integer", "minimum": 0, "maximum": 4 },
+        "rationale": { "type": "string", "minLength": 1 },
+        "sourceIds": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "pattern": "^[A-Z0-9][A-Z0-9-]+$" }
+        }
+      }
+    }
+  }
+}

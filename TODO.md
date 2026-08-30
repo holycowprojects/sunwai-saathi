@@ -119,7 +119,7 @@
 ### Authority selection
 
 - [ ] Collect official grievance/RTI statistics for each jurisdiction.
-- [ ] Define the fallback scoring rubric: population served, grievance relevance, source completeness, filing accessibility, maintainability.
+- [x] Define the [authority-selection fallback scoring rubric](./docs/legal-data/AUTHORITY_SELECTION.md): population served, grievance relevance, source completeness, filing accessibility, maintainability.
 - [ ] Produce a scored candidate list for Central Government.
 - [ ] Produce a scored candidate list for Delhi.
 - [ ] Produce a scored candidate list for Haryana.

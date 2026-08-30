@@ -16,6 +16,7 @@ This document defines the contracts shared by legal research, deterministic draf
 | Jurisdiction | `data/schemas/jurisdiction.schema.json` | Aggregated application and first-appeal behavior |
 | Legal rule | `data/schemas/legal-rule.schema.json` | One effective-dated deterministic legal or portal rule |
 | Authority | `data/schemas/authority.schema.json` | PIO and FAA offices identified by designation, never a person's name |
+| Authority candidate | `data/schemas/authority-candidate.schema.json` | Research-only selection scorecard; never filing behavior |
 | Source-health report | `data/schemas/source-health-report.schema.json` | Immutable output from a periodic URL/checksum check |
 
 ## Lifecycle semantics
