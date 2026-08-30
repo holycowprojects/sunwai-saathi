@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "CENTRAL-CPIO-DIRECTORY",
+  "title": "Query for CPIO Details of Central Public Authorities",
+  "issuer": "Department of Personnel and Training, Government of India",
+  "jurisdiction": "central",
+  "url": "https://rtionline.gov.in/request/cpioDetails_rticorner.php",
+  "publishedOn": null,
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-30T15:14:31+05:30",
+  "contentType": "text/html",
+  "sizeBytes": null,
+  "sha256": null,
+  "provision": "Central public-authority CPIO discovery directory",
+  "excerpt": "The directory supports ministry, department and public-authority selection and states that each public authority enters and updates its own CPIO data in RTI-MIS.",
+  "status": "verified",
+  "notes": "Verified as a discovery source only. It does not by itself establish a complete designation-based PIO/FAA service address for a launch authority.",
+  "review": {
+    "technical": {
+      "status": "approved",
+      "reviewer": "Codex technical research",
+      "reviewedAt": "2026-08-30T15:14:31+05:30",
+      "notes": "Scope and self-maintained-data warning checked on the official page."
+    },
+    "legalRti": {
+      "status": "pending",
+      "reviewer": null,
+      "reviewedAt": null,
+      "notes": null
+    }
+  }
+}

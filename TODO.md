@@ -120,7 +120,7 @@
 
 - [ ] Collect official grievance/RTI statistics for each jurisdiction.
 - [x] Define the [authority-selection fallback scoring rubric](./docs/legal-data/AUTHORITY_SELECTION.md): population served, grievance relevance, source completeness, filing accessibility, maintainability.
-- [ ] Produce a scored candidate list for Central Government.
+- [ ] Produce a scored candidate list for Central Government; [official-statistics candidate discovery](./docs/legal-data/CENTRAL_AUTHORITY_CANDIDATES.md) is complete, while authority mapping and directory scoring remain pending.
 - [ ] Produce a scored candidate list for Delhi.
 - [ ] Produce a scored candidate list for Haryana.
 - [ ] Produce a scored candidate list for Maharashtra.

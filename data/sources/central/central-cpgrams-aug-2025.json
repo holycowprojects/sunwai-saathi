@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "CENTRAL-CPGRAMS-AUG-2025",
+  "title": "CPGRAMS Monthly Report — Central Ministries/Departments, August 2025",
+  "issuer": "Department of Administrative Reforms and Public Grievances, Government of India",
+  "jurisdiction": "central",
+  "url": "https://darpg.gov.in/sites/default/files/DARPG_Monthly_Report_Central_August_2025_v6.pdf",
+  "publishedOn": null,
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-30T15:14:31+05:30",
+  "contentType": "application/pdf",
+  "sizeBytes": null,
+  "sha256": null,
+  "provision": "Annexure 1.1, maximum grievance receipts from 1 January to 31 August 2025",
+  "excerpt": "Official report ranks the ten Central ministries/departments with the highest CPGRAMS grievance receipts during the stated period.",
+  "status": "verified",
+  "notes": "Technically verified from the indexed official report. Candidate-discovery evidence only; not authority-directory or filing evidence. Raw PDF was not downloaded to the project or committed.",
+  "review": {
+    "technical": {
+      "status": "approved",
+      "reviewer": "Codex technical research",
+      "reviewedAt": "2026-08-30T15:14:31+05:30",
+      "notes": "Reporting period, metric, top-ten ordering and receipt counts were checked against the official indexed table."
+    },
+    "legalRti": {
+      "status": "pending",
+      "reviewer": null,
+      "reviewedAt": null,
+      "notes": "Statistics do not activate filing behavior."
+    }
+  }
+}

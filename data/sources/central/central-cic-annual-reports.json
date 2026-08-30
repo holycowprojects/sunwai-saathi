@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "CENTRAL-CIC-ANNUAL-REPORTS",
+  "title": "Central Information Commission annual reports index",
+  "issuer": "Central Information Commission, Government of India",
+  "jurisdiction": "central",
+  "url": "https://cic.gov.in/circular-reports-conventions",
+  "publishedOn": null,
+  "effectiveFrom": null,
+  "effectiveTo": null,
+  "retrievedAt": "2026-08-30T15:14:31+05:30",
+  "contentType": "text/html",
+  "sizeBytes": null,
+  "sha256": null,
+  "provision": "Section 25 annual reporting discovery",
+  "excerpt": "Official index lists CIC annual reports, including 2024–25 published on 6 February 2026 and 2023–24 published on 17 January 2025.",
+  "status": "verified",
+  "notes": "Discovery source for authority-level RTI statistics. The current report exceeded the project's safe 10 MB local-download limit and was not downloaded or committed.",
+  "review": {
+    "technical": {
+      "status": "approved",
+      "reviewer": "Codex technical research",
+      "reviewedAt": "2026-08-30T15:14:31+05:30",
+      "notes": "Current report titles, publication dates and links checked on the official index."
+    },
+    "legalRti": {
+      "status": "pending",
+      "reviewer": null,
+      "reviewedAt": null,
+      "notes": "Annual-return interpretation remains separate from filing behavior."
+    }
+  }
+}
